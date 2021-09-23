@@ -3,9 +3,9 @@ layout: post
 current: post
 cover:  assets/built/images/Git-Github-logo.png  #  썸네일
 navigation: True
-title: Git-Github
+title: til3
 date: 2018-09-27 16:40:00
-tags: [Git-Github]
+tags: [TIL]
 class: post-template
 subclass: 'post'
 author: 0andme
