@@ -1,32 +1,86 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
+    
     <url>
-        <loc>{{ site.url }}{{ post.url }}.html</loc>
-        {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-        {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-        {% endif %}
+        <loc>https://0andme.github.io/til3.html</loc>
+        
+        <lastmod>2018-09-27T16:40:00+00:00</lastmod>
+        
 
-        {% if post.sitemap.changefreq == null %}
+        
         <changefreq>weekly</changefreq>
-        {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-        {% endif %}
+        
 
-        {% if post.sitemap.priority == null %}
+        
         <priority>0.5</priority>
-        {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-        {% endif %}
+        
 
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>https://0andme.github.io/git.html</loc>
+        
+        <lastmod>2018-09-27T16:40:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://0andme.github.io/TIL2.html</loc>
+        
+        <lastmod>1863-11-19T10:18:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://0andme.github.io/TIL.html</loc>
+        
+        <lastmod>1863-11-19T10:18:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://0andme.github.io/gettysburg-address.html</loc>
+        
+        <lastmod>1863-11-19T10:18:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
 </urlset>
