@@ -4,7 +4,7 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://0andme.github.io/exam.html</loc>
+        <loc>https://0andme.github.io/exam22.html</loc>
         
         <lastmod>2018-09-27T16:40:00+00:00</lastmod>
         
@@ -23,70 +23,6 @@
         <loc>https://0andme.github.io/exam.html</loc>
         
         <lastmod>2018-09-27T16:40:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://0andme.github.io/til3.html</loc>
-        
-        <lastmod>2018-09-27T16:40:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://0andme.github.io/TIL4.html</loc>
-        
-        <lastmod>2018-09-27T16:40:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://0andme.github.io/git.html</loc>
-        
-        <lastmod>2018-09-27T16:40:00+00:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://0andme.github.io/gettysburg-address.html</loc>
-        
-        <lastmod>1863-11-19T10:18:00+00:00</lastmod>
         
 
         
@@ -102,7 +38,7 @@
     <url>
         <loc>https://0andme.github.io/TIL2.html</loc>
         
-        <lastmod>1863-11-19T10:18:00+00:00</lastmod>
+        <lastmod>2018-09-24T16:40:00+00:00</lastmod>
         
 
         
@@ -116,7 +52,23 @@
     </url>
     
     <url>
-        <loc>https://0andme.github.io/TIL.html</loc>
+        <loc>https://0andme.github.io/TIL1.html</loc>
+        
+        <lastmod>2018-09-24T16:40:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://0andme.github.io/exam2.html</loc>
         
         <lastmod>1863-11-19T10:18:00+00:00</lastmod>
         
