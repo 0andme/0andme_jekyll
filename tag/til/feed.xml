@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-23T22:32:27+00:00</updated>
+  <updated>2021-09-23T22:44:09+00:00</updated>
   <id>https://0andme.github.io/tag/til/feed.xml</id>
 
   
@@ -67,6 +67,48 @@
     </entry>
   
     <entry>
+      <title type="html">TIL4</title>
+      <link href="https://0andme.github.io/TIL4" rel="alternate" type="text/html" title="TIL4" />
+      <published>2018-09-27T16:40:00+00:00</published>
+      <updated>2018-09-27T16:40:00+00:00</updated>
+      <id>https://0andme.github.io/TIL4</id>
+      <content type="html" xml:base="https://0andme.github.io/TIL4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/til3&quot;&gt;TIL3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL4&quot;&gt;TIL4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TILTILTILTILTIL&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>0andme</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2 TIL3 TIL4</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">til2</title>
       <link href="https://0andme.github.io/TIL2" rel="alternate" type="text/html" title="til2" />
       <published>1863-11-19T10:18:00+00:00</published>
@@ -74,8 +116,10 @@
       <id>https://0andme.github.io/TIL2</id>
       <content type="html" xml:base="https://0andme.github.io/TIL2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/til3&quot;&gt;TIL3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL4&quot;&gt;TIL4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
@@ -103,7 +147,7 @@
       
 
       
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2</summary>
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2 TIL3 TIL4</summary>
       
 
       
@@ -118,8 +162,10 @@
       <id>https://0andme.github.io/TIL</id>
       <content type="html" xml:base="https://0andme.github.io/TIL">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/til3&quot;&gt;TIL3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL4&quot;&gt;TIL4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
@@ -147,7 +193,7 @@
       
 
       
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2</summary>
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2 TIL3 TIL4</summary>
       
 
       

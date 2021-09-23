@@ -51,9 +51,34 @@
     
       
       <item>
+        <title>TIL4</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/til3&quot;&gt;TIL3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL4&quot;&gt;TIL4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Sep 2018 16:40:00 +0000</pubDate>
+        <link>
+        https://0andme.github.io/TIL4</link>
+        <guid isPermaLink="true">https://0andme.github.io/TIL4</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Git-Github</title>
         
-          <description>&lt;p&gt;나는 깃이오&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git-Github 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
+    &lt;!-- &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;/ul&gt;
 
 </description>
         
@@ -66,12 +91,29 @@
     
       
       <item>
+        <title>Gettysburg Address</title>
+        
+          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
+        <link>
+        https://0andme.github.io/gettysburg-address</link>
+        <guid isPermaLink="true">https://0andme.github.io/gettysburg-address</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>til2</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/til3&quot;&gt;TIL3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL4&quot;&gt;TIL4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -89,8 +131,10 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/til3&quot;&gt;TIL3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL4&quot;&gt;TIL4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -99,21 +143,6 @@
         <link>
         https://0andme.github.io/TIL</link>
         <guid isPermaLink="true">https://0andme.github.io/TIL</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Gettysburg Address</title>
-        
-          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
-        <link>
-        https://0andme.github.io/gettysburg-address</link>
-        <guid isPermaLink="true">https://0andme.github.io/gettysburg-address</guid>
       </item>
       
     

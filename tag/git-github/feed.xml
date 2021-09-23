@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/git-github/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-23T22:32:27+00:00</updated>
+  <updated>2021-09-23T22:44:09+00:00</updated>
   <id>https://0andme.github.io/tag/git-github/feed.xml</id>
 
   
@@ -37,7 +37,13 @@
       <published>2018-09-27T16:40:00+00:00</published>
       <updated>2018-09-27T16:40:00+00:00</updated>
       <id>https://0andme.github.io/git</id>
-      <content type="html" xml:base="https://0andme.github.io/git">&lt;p&gt;나는 깃이오&lt;/p&gt;
+      <content type="html" xml:base="https://0andme.github.io/git">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git-Github 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
+    &lt;!-- &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;나는 깃이오&lt;/p&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
@@ -70,7 +76,7 @@
       
 
       
-        <summary type="html">나는 깃이오</summary>
+        <summary type="html">Git-Github 강좌는 여러 절로 구성되어 있습니다. git</summary>
       
 
       
