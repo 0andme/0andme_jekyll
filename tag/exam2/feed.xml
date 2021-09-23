@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://0andme.github.io/tag/exam2/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-09-23T22:32:27+00:00</updated>
+  <id>https://0andme.github.io/tag/exam2/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">0andme의 개발 블로그 | </title>
+  
+
+  
+    <subtitle>LV.99 개발자 되기</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">exam2</title>
+      <link href="https://0andme.github.io/exam" rel="alternate" type="text/html" title="exam2" />
+      <published>2018-09-27T16:40:00+00:00</published>
+      <updated>2018-09-27T16:40:00+00:00</updated>
+      <id>https://0andme.github.io/exam</id>
+      <content type="html" xml:base="https://0andme.github.io/exam">&lt;p&gt;exam2exam2exam2exam2&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>0andme</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="exam2" />
+      
+
+      
+        <summary type="html">exam2exam2exam2exam2</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
