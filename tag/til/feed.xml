@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-23T23:01:44+00:00</updated>
+  <updated>2021-09-23T23:12:13+00:00</updated>
   <id>https://0andme.github.io/tag/til/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">TIL2</title>
       <link href="https://0andme.github.io/TIL2" rel="alternate" type="text/html" title="TIL2" />
-      <published>2018-09-24T16:40:00+00:00</published>
-      <updated>2018-09-24T16:40:00+00:00</updated>
+      <published>2018-09-27T16:40:00+00:00</published>
+      <updated>2018-09-27T16:40:00+00:00</updated>
       <id>https://0andme.github.io/TIL2</id>
       <content type="html" xml:base="https://0andme.github.io/TIL2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -44,7 +44,11 @@
    
 &lt;/ul&gt;
 
-&lt;p&gt;examexamexamexam&lt;/p&gt;</content>
+&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+
+&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
 
       
       
@@ -61,7 +65,7 @@
       
 
       
-        <category term="TIL" />
+        <category term="til" />
       
 
       
@@ -73,10 +77,10 @@
     </entry>
   
     <entry>
-      <title type="html">TIL2</title>
-      <link href="https://0andme.github.io/TIL1" rel="alternate" type="text/html" title="TIL2" />
-      <published>2018-09-24T16:40:00+00:00</published>
-      <updated>2018-09-24T16:40:00+00:00</updated>
+      <title type="html">TIL1</title>
+      <link href="https://0andme.github.io/TIL1" rel="alternate" type="text/html" title="TIL1" />
+      <published>2018-09-27T16:40:00+00:00</published>
+      <updated>2018-09-27T16:40:00+00:00</updated>
       <id>https://0andme.github.io/TIL1</id>
       <content type="html" xml:base="https://0andme.github.io/TIL1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -85,7 +89,11 @@
    
 &lt;/ul&gt;
 
-&lt;p&gt;examexamexamexam&lt;/p&gt;</content>
+&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+
+&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
 
       
       
@@ -102,7 +110,7 @@
       
 
       
-        <category term="TIL" />
+        <category term="til" />
       
 
       
