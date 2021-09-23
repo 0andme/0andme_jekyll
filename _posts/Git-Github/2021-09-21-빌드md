@@ -1,0 +1,14 @@
+---
+layout: post
+current: post
+cover:  assets/built/images/Git-Github-logo.png  #  썸네일
+navigation: True
+title: Git-Github
+date: 2018-09-27 16:40:00
+tags: [Git-Github]
+class: post-template
+subclass: 'post'
+author: 0andme
+---
+
+빌드 자동화가 되었다잉
