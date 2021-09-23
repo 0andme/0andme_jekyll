@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/git-github/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-24T04:18:13+09:00</updated>
+  <updated>2021-09-24T05:15:16+09:00</updated>
   <id>https://0andme.github.io/tag/git-github/feed.xml</id>
 
   
@@ -49,23 +49,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class=&quot;language-c++ highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;noscript&gt;&lt;pre&gt;const basePixelFilter = [255, 127, 127, 0.8];
-
-// sets up canvas state for next capture interval
-function resetCanvas(status, src) {
-    for (var i = 0; i &amp;lt; src.data.length; i += 4) {
-        var pixelScore = src.data[i] / 3 + src.data[i + 1] / 3 + src.data[i + 2] / 3;
-        if (pixelScore &amp;gt; PIXEL_SCORE_THRESHOLD) {
-            status.canvasStatus.exceedsUpperBound = true;
-            break;
-        }
-    }
-    AuditLog.pushState(&amp;#39;status&amp;#39;, status, false); // async servers don&amp;#39;t keep audit logs
-    return !status.canvasStatus.exceedsUpperBound &amp;amp;&amp;amp; AuditLog.sanityCheck();
-}&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/0andme/1ed5251325cbad6009e3d6acc4081bd9.js&quot;&gt; &lt;/script&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       

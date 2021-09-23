@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/til/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-24T04:18:13+09:00</updated>
+  <updated>2021-09-24T05:15:16+09:00</updated>
   <id>https://0andme.github.io/tag/til/feed.xml</id>
 
   
@@ -30,6 +30,41 @@
   
   
 
+  
+    <entry>
+      <title type="html">til3</title>
+      <link href="https://0andme.github.io/til3" rel="alternate" type="text/html" title="til3" />
+      <published>2018-09-28T01:40:00+09:00</published>
+      <updated>2018-09-28T01:40:00+09:00</updated>
+      <id>https://0andme.github.io/til3</id>
+      <content type="html" xml:base="https://0andme.github.io/til3">&lt;p&gt;빌드 자동화가 되었다잉
+왜 안돼&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>0andme</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="TIL" />
+      
+
+      
+        <summary type="html">빌드 자동화가 되었다잉 왜 안돼</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">til</title>
