@@ -18,6 +18,8 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/global.css" />
+
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
     <!-- custom.css -->
     <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
@@ -135,20 +137,18 @@ into the {body} of the default.hbs template -->
         
         
             <ul class="nav" role="menu">
+    <!-- home -->
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <!-- about -->
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-TIL" role="menuitem"><a href="/tag/GIT/">GIT</a></li>
-
-    <li class="nav-TIL" role="menuitem"><a href="/tag/til/">til</a></li>
-    <li class="nav-exam" role="menuitem"><a href="/tag/exam/">exam</a></li>
-    <li class="nav-exam" role="menuitem"><a href="/tag/exam2/">exam2</a></li>
-
-    <li class="nav-archive" role="menuitem">
-        <a href="/archive.html">All Posts</a>
-    </li>
-    <li class="nav-archive" role="menuitem">
-        <a href="/author_archive.html">Tag별 Posts</a>
-    </li>
+    <!-- git-github -->
+    <li class="nav-git-github" role="menuitem"><a href="/tag/git-github/">GIT</a></li>
+    <!-- TIL -->
+    <li class="nav-til" role="menuitem"><a href="/tag/til/">til</a></li>
+    <!-- 모든 포스트 -->
+    <li class="nav-archive" role="menuitem"><a href="/archive.html">All Posts</a></li>
+    <!-- 태그별 포스트 -->
+    <li class="nav-archive" role="menuitem"><a href="/author_archive.html">Tag별 Posts</a></li>
 </ul>
         
     </div>
@@ -191,30 +191,21 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
-    "git1": {
-        "title": "git-github1",
+    "git-alone-2": {
+        "title": "혼자하는 Git/Github 전체적인 흐름 알아보기 - 하",
             "author": "0andme",
             "category": "",
-            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
-        "url": "/GIT1"
+            "content": "목록      [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상     [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하   5. 풀리퀘스트 PR(pull request)보내기원격 저장소의 하위 브랜치에서 원격 저장소의 상위 브랜치로의 merge를 요청하는 것을 풀리퀘스트 PR(pull request)이라고 한다.풀리퀘스트를 생성하는 방법은 아래와 같다.1.1 로컬 브랜치에서 원격 저장소에 push하고 나면 아래의 이미지와 같이 github에 자동으로 나타나는 PR 생성 창을 누르거나1.2 Pull requests -&gt; new pull request 버튼을 누른다.2 하위 브랜치와 상위 브랜치가 무엇인지 한 번 더 확인하고 create pull request버튼을 누른다.3 적절한 PR comment를 남기고 create pull request버튼을 누르면 풀리퀘스트가 만들어진다.4 현재 원격 저장소를 혼자 사용하고 있다고 가정하고 있으므로 merge를 하기 위해서 아래의 사진과 같은 merge pull request버튼을 누르면 된다. 팀원과 함께 개발하고 있다면 팀원의 승인 이후 merge해야할 것이다. merge는 본인이 해도 되고 팀원이 해도 된다. 6. 원격 저장소의 변경 사항 내려받고 병합하기 : fetch + merge 와 pull위의 이미지 크게 보기언제 변경 사항을 받아올까?원격 저장소에 변경이 있을 때 변경 사항을 받아오게 되는데 나의 경우엔 주로 충돌이 일어날 때 변경사항이 있음을 알게 된다.언제 충돌이 일어날까로컬에서 push할 때와 풀리퀘스트 생성시 충돌을 겪을 수 있다. 만약, 혼자 사용하는 원격 저장소인데 충돌이 일어났다면 github에서 직접 파일을 변경한 이력이 있을 것이다.  로컬에서 push 할 때의 충돌 확인아래의 이미지는 원격 저장소의 new브랜치에서 변경사항이 일어나 로컬의 new 브랜치에서 push가 거절되었을 때의 메시지이다. 아래의 메시지를 잘 보면 push가 거절된 힌트를 엄청 친절하게 주고 있다는 것을 알 수 있다. 거절의 이유와 해결법까지 알려주고 있다.  풀리 퀘스트에서의 충돌 확인아래는 원격 저장소의 new브랜치의 내용을 원격 저장소의 main브랜치에 병합하고자 pr을 보냈을때 충돌이 일어났음을 보여주는 사진이다. 풀리퀘스트 생성 전에도 후에도 충돌이 일어났음을 알 수 있다. 어떻게 충돌을 해결하는가변경사항이 있는 원격저장소의 branch를 로컬로 다운 받고 병합하여 수정 후 다시 add와 commit, push를 수행하면 된다.변경사항이 있는 원격저장소의 branch를 가져오는 방법은 두 가지가 있다.      fetch와 merge          fetch 명령어를 입력하면 FETCH_HEAD 라는 임시 브랜치에 원격저장소의 브랜치의 변경사항이 저장된다. 현재 브랜치에 변경사항을 바로 적용하고 싶지 않을 때 사용하면 된다.      FETCH_HEAD에 가져온 내용을 현재 브랜치와 병합하기 위해 merge명령어를 수행한다.                  git fetch origin 브랜치명 git merge FETCH_HEAD                          pull          pull 명령어는 fetch와 merge 명령어를 수행한  것과 같다. merge를 자동으로 하고 싶을 때 사용하면 된다.                  git pull origin 브랜치명                      위의 두가지 방법 중 하나로 병합을 하고 파일을 열면 변경사항이 파일에 표시된다. 로컬저장소에서 작성한 부분과 원격 저장소에서 작성한 부분을 구분하는 부분이 아래와 같이 표시된다. 적절히 변경한 후 저장하면 된다.  파일이 변경되었기 때문에 바로 push하는 것이 아니라  add와 commit을 하고  push하면 충돌이 해결된다. PR에서도 아래와 같이 바뀌면 충돌이 해결된 것이다.  PR에서의 충돌을 해결할 때 짚고 넘어가야 하는 것은 main브랜치의 변경 사항을 받아왔다고 해서 main에 다시 push하는 것이 아니라는 것이다. 원격 저장소의 하위 브랜치에서 main으로 병합을 요청한 상태이니 하위 브랜치로 push해야한다.  풀리 퀘스트를 사용하지 않고 하위 브랜치 따위가 상위 브랜치에 뭔가를 올리려고 하지말자",
+        "url": "/git_alone_2"
     }
     ,
     
-    "exam22": {
-        "title": "exam2",
+    "git-alone-1": {
+        "title": "혼자하는 Git/Github 전체적인 흐름 알아보기 - 상",
             "author": "0andme",
             "category": "",
-            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
-        "url": "/exam22"
-    }
-    ,
-    
-    "exam": {
-        "title": "exam",
-            "author": "0andme",
-            "category": "",
-            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
-        "url": "/exam"
+            "content": "목록      [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상     [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하         모두가 다음과 같은 흐름으로 작업을 하지 않으며 개인의 작업 흐름을 정리해둔 글입니다    git/github 사용의 전체적인 흐름을 파악하고 이해해보는 것이 목표입니다    이 글은 나의 원격 저장소와 로컬 저장소만을 다룹니다.    git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.        윈도우 환경에서 실습을 진행    vim 으로 커밋 메세지를 작성    CLI 환경만 이용  전체적인 흐름 이미지 크게 보기  이 글에선 원격 저장소에 branch를 푸시하는 4번까지의 과정을 설명합니다.1. 원격 저장소를 로컬에 복제하기 : clone이미지 크게 보기작업 초기에 가장 먼저 실행하는 작업이며 나의 경우 로컬에서의 작업 내역이 아예 없을 때 사용한다. 로컬에서 로컬저장소를 만들고(git init) 원격저장소와 연결하는 것(git remote add origin github주소 )보다 입력할 명령어가 적기 때문에 실수할 일이 거의 없어 주로 사용한다.  github에서 생성한 저장소를 내 컴퓨터에 가져오기 위해 저장소를 가져올 폴더에서 git bash 창을 열어 아래 명령을 입력한다.          git clone github주소            위의 명령어를 치고 bash명령어를 실행했던 폴더를 가보면 원격저장소 이름과 동일한 폴더가 생성되어있을 것이다. 그 폴더 안에 .git폴더가 있다면 로컬저장소가 생긴 것이다.(숨김 해제를 해야 보인다)    위의 내용대로 실행했다며 현재 bash창을 열었던 폴더에서 생성된 저장소 폴더로 이동하는 과정도 빼트리지 말아야한다. 생성된 저장소 안에서 git bash를 열어도 된다.          cd  생성된 로컬 저장소 주소(폴더이름)       2. 로컬 저장소에 새로운 branch 만들고 이동하기 : branch와 checkout이미지 크게 보기  협업뿐 아니라 개인의 작업을 위해서도 가장 중요한 부분이라고 할 수 있다.  새로운 영역을 만들어 main branch의 영역을 건들지 않는 작업이다.나의 경우 main branch를 최종의 최종의 최종만 담는 공간이자 나의 사수만 관리하는 공간이라고 생각하며 작업한다. 로컬 저장소에서 main branch로 checkout하는 일이 거의 없다. (혼자 작업하는 경우에도 동일)          git branch 생성할 브랜치명        이렇게 생성한 브랜치로 이동하기 위해서는 아래의 명령어를 사용한다.          git checkout 이동하고자 하는 브랜치명      3. 로컬 저장소에서 작업하고 커밋까지 하기 : add와 commit이미지 크게 보기  위의 과정을 모두 진행하고 나서는 저장소안에서 자유롭게 작업을 시작하면 되고 항상 잊지말아야 할 것은 현재 브랜치가 어디인지이다.  작업을 마치면 add와 commit을 진행한다. add를 이용하여 스테이지에 올린 파일들을 하나의 덩어리로 묶는 것이 commit이다.  아래의 명령어를 이용하여 덩어리로 묶고자하는 파일들을 전부 스테이지에 올린다.          git add 파일명.확장자        add를 통해 스테이지에 올린 파일들을 한 덩어리로 묶는 commit을 실행한다.          git commit      커밋 메시지 규칙과 커밋 컨벤션 정리4. 원격 저장소에 branch 푸시하기 : push이미지 크게 보기  로컬 저장소에 쌓인 커밋들을 원격저장소에도 저장하기 위해 push 명령어를 사용한다.이때 원격 저장소의 main이 아닌 현재 로컬 브랜치와 동일한 이름의 branch에 작업을 올린다.          git push origin 브랜치명        git push -u 옵션을 사용하면 다음 push때 매번 브랜치명을 적지 않고 git push명령어만 입력해도 파일들이 자동으로 해당 branch에 저장된다. 그러나 나의 경우 -u옵션을 사용하고 나서도 확실히하는 차원에서 ‘git push origin 브랜치명’ 을 사용한다.          git push -u origin 브랜치명      ",
+        "url": "/git_alone_1"
     }
     ,
     
@@ -222,7 +213,7 @@ into the {body} of the default.hbs template -->
         "title": "TIL2",
             "author": "0andme",
             "category": "",
-            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     TIL1    TIL2   Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+            "content": "목록    TIL1    TIL2   Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
         "url": "/TIL2"
     }
     ,
@@ -231,17 +222,8 @@ into the {body} of the default.hbs template -->
         "title": "TIL1",
             "author": "0andme",
             "category": "",
-            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     TIL1    TIL2   Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+            "content": "목록    TIL1    TIL2   Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
         "url": "/TIL1"
-    }
-    ,
-    
-    "exam2": {
-        "title": "exam2",
-            "author": "0andme",
-            "category": "",
-            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
-        "url": "/exam2"
     }
     
     
@@ -358,7 +340,7 @@ $(function() {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-xxxxxxxx-x', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
  </script>

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/author/0andme/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-24T10:27:33+00:00</updated>
+  <updated>2021-09-24T15:09:14+00:00</updated>
   <id>https://0andme.github.io/author/0andme/feed.xml</id>
 
   
@@ -32,187 +32,97 @@
 
   
     <entry>
-      <title type="html">TIL1</title>
-      <link href="https://0andme.github.io/TIL1" rel="alternate" type="text/html" title="TIL1" />
-      <published>2018-09-27T16:40:00+00:00</published>
-      <updated>2018-09-27T16:40:00+00:00</updated>
-      <id>https://0andme.github.io/TIL1</id>
-      <content type="html" xml:base="https://0andme.github.io/TIL1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <title type="html">혼자하는 Git/Github 전체적인 흐름 알아보기 - 하</title>
+      <link href="https://0andme.github.io/git_alone_2" rel="alternate" type="text/html" title="혼자하는 Git/Github 전체적인 흐름 알아보기 - 하" />
+      <published>2021-08-01T00:00:00+00:00</published>
+      <updated>2021-08-01T00:00:00+00:00</updated>
+      <id>https://0andme.github.io/git_alone_2</id>
+      <content type="html" xml:base="https://0andme.github.io/git_alone_2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL1&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
+
    
 &lt;/ul&gt;
 
-&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;5-풀리퀘스트-prpull-request보내기&quot;&gt;5. 풀리퀘스트 PR(pull request)보내기&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/71ff8088-31da-49ab-b284-0e5a740f0179/image.png&quot; alt=&quot;&quot; /&gt;
+원격 저장소의 하위 브랜치에서 원격 저장소의 상위 브랜치로의 merge를 요청하는 것을 풀리퀘스트 PR(pull request)이라고 한다.&lt;/p&gt;
 
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+&lt;p&gt;풀리퀘스트를 생성하는 방법은 아래와 같다.&lt;/p&gt;
 
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;1.1&lt;/strong&gt; 로컬 브랜치에서 원격 저장소에 push하고 나면 아래의 이미지와 같이 github에 자동으로 나타나는 PR 생성 창을 누르거나&lt;img src=&quot;https://images.velog.io/images/0mi/post/b5ad13e0-65eb-44b4-a98d-231d1dd21227/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-      
-      
-      
-      
-      
+&lt;p&gt;&lt;strong&gt;1.2&lt;/strong&gt; Pull requests -&amp;gt; new pull request 버튼을 누른다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/c61a88a3-6ebc-4e92-8d5e-fdea62846605/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-      <author>
-          <name>0andme</name>
-        
-        
-      </author>
+&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt; 하위 브랜치와 상위 브랜치가 무엇인지 한 번 더 확인하고 create pull request버튼을 누른다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/5ce82172-8786-4981-a8fc-89a177a4a563/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-      
+&lt;p&gt;&lt;strong&gt;3&lt;/strong&gt; 적절한 PR comment를 남기고 create pull request버튼을 누르면 풀리퀘스트가 만들어진다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/252fb462-55af-444f-a153-b1230a80bfb7/image.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;4&lt;/strong&gt; &lt;span style=&quot;color:gray&quot;&gt;현재 원격 저장소를 혼자 사용하고 있다고 가정하고 있으므로&lt;/span&gt; merge를 하기 위해서 아래의 사진과 같은 merge pull request버튼을 누르면 된다.&lt;span style=&quot;color:gray&quot;&gt; 팀원과 함께 개발하고 있다면 팀원의 승인 이후 merge해야할 것이다. merge는 본인이 해도 되고 팀원이 해도 된다. &lt;/span&gt;
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/e0c5a33a-23e8-476a-bf2c-a05e98f6d613/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-      
-        <category term="til" />
-      
+&lt;hr /&gt;
 
-      
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2</summary>
-      
+&lt;h3 id=&quot;6-원격-저장소의-변경-사항-내려받고-병합하기--fetch--merge-와-pull&quot;&gt;6. 원격 저장소의 변경 사항 내려받고 병합하기 : fetch + merge 와 pull&lt;/h3&gt;
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">TIL2</title>
-      <link href="https://0andme.github.io/TIL2" rel="alternate" type="text/html" title="TIL2" />
-      <published>2018-09-27T16:40:00+00:00</published>
-      <updated>2018-09-27T16:40:00+00:00</updated>
-      <id>https://0andme.github.io/TIL2</id>
-      <content type="html" xml:base="https://0andme.github.io/TIL2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL1&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
-   
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/293f3e87-8681-47c6-bc32-2e42bc768408/image.png&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/293f3e87-8681-47c6-bc32-2e42bc768408/image.png&quot; target=&quot;_blank&quot;&gt;위의 이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;언제-변경-사항을-받아올까&quot;&gt;언제 변경 사항을 받아올까?&lt;/h4&gt;
+&lt;p&gt;원격 저장소에 변경이 있을 때 변경 사항을 받아오게 되는데 나의 경우엔 주로 &lt;span style=&quot;color:red&quot;&gt;충돌이 일어날 때&lt;/span&gt; 변경사항이 있음을 알게 된다.&lt;/p&gt;
+
+&lt;h4 id=&quot;언제-충돌이-일어날까&quot;&gt;언제 충돌이 일어날까&lt;/h4&gt;
+&lt;p&gt;로컬에서 push할 때와 풀리퀘스트 생성시 충돌을 겪을 수 있다. 만약, 혼자 사용하는 원격 저장소인데 충돌이 일어났다면 github에서 직접 파일을 변경한 이력이 있을 것이다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;로컬에서 push 할 때의 충돌 확인
+아래의 이미지는 원격 저장소의 new브랜치에서 변경사항이 일어나 로컬의 new 브랜치에서 push가 거절되었을 때의 메시지이다. &lt;span style=&quot;color:gray&quot;&gt;아래의 메시지를 잘 보면 push가 거절된 힌트를 엄청 친절하게 주고 있다는 것을 알 수 있다. 거절의 이유와 해결법까지 알려주고 있다.&lt;/span&gt;
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/377f01e0-e1d8-4df8-899b-5f4f860181a7/image.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;풀리 퀘스트에서의 충돌 확인
+아래는 원격 저장소의 new브랜치의 내용을 원격 저장소의 main브랜치에 병합하고자 pr을 보냈을때 충돌이 일어났음을 보여주는 사진이다. 풀리퀘스트 생성 전에도 후에도 충돌이 일어났음을 알 수 있다. &lt;img src=&quot;https://images.velog.io/images/0mi/post/bdf95e24-decd-46b0-8f06-177ef2e9210e/image.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+&lt;h4 id=&quot;어떻게-충돌을-해결하는가&quot;&gt;어떻게 충돌을 해결하는가&lt;/h4&gt;
+&lt;p&gt;변경사항이 있는 원격저장소의 branch를 로컬로 다운 받고 병합하여 수정 후 다시 add와 commit, push를 수행하면 된다.&lt;/p&gt;
 
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+&lt;p&gt;변경사항이 있는 원격저장소의 branch를 가져오는 방법은 &lt;span style=&quot;color:red&quot;&gt;두 가지&lt;/span&gt;가 있다.&lt;/p&gt;
 
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetch&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merge&lt;/code&gt;&lt;/p&gt;
 
-      
-      
-      
-      
-      
+    &lt;ul&gt;
+      &lt;li&gt;fetch 명령어를 입력하면 FETCH_HEAD 라는 임시 브랜치에 원격저장소의 브랜치의 변경사항이 저장된다. 현재 브랜치에 변경사항을 바로 적용하고 싶지 않을 때 사용하면 된다.&lt;/li&gt;
+      &lt;li&gt;FETCH_HEAD에 가져온 내용을 현재 브랜치와 병합하기 위해 merge명령어를 수행한다.
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch origin &lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt; 
+&lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pull&lt;/code&gt;&lt;/p&gt;
 
-      <author>
-          <name>0andme</name>
-        
-        
-      </author>
+    &lt;ul&gt;
+      &lt;li&gt;pull 명령어는 fetch와 merge 명령어를 수행한  것과 같다. merge를 자동으로 하고 싶을 때 사용하면 된다.
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git pull origin &lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-      
-
-      
-        <category term="til" />
-      
-
-      
-        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. TIL1 TIL2</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">exam</title>
-      <link href="https://0andme.github.io/exam" rel="alternate" type="text/html" title="exam" />
-      <published>2018-09-27T16:40:00+00:00</published>
-      <updated>2018-09-27T16:40:00+00:00</updated>
-      <id>https://0andme.github.io/exam</id>
-      <content type="html" xml:base="https://0andme.github.io/exam">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
-
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>0andme</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exam" />
-      
-
-      
-        <summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">exam2</title>
-      <link href="https://0andme.github.io/exam22" rel="alternate" type="text/html" title="exam2" />
-      <published>2018-09-27T16:40:00+00:00</published>
-      <updated>2018-09-27T16:40:00+00:00</updated>
-      <id>https://0andme.github.io/exam22</id>
-      <content type="html" xml:base="https://0andme.github.io/exam22">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
-
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.
-Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
-
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>0andme</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="exam2" />
-      
-
-      
-        <summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">git-github1</title>
-      <link href="https://0andme.github.io/GIT1" rel="alternate" type="text/html" title="git-github1" />
-      <published>2018-09-27T16:40:00+00:00</published>
-      <updated>2018-09-27T16:40:00+00:00</updated>
-      <id>https://0andme.github.io/GIT1</id>
-      <content type="html" xml:base="https://0andme.github.io/GIT1">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
-
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
+&lt;ul&gt;
+  &lt;li&gt;위의 두가지 방법 중 하나로 병합을 하고 파일을 열면 변경사항이 파일에 표시된다. 로컬저장소에서 작성한 부분과 원격 저장소에서 작성한 부분을 구분하는 부분이 아래와 같이 표시된다. 적절히 변경한 후 저장하면 된다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/1a23f167-5d00-4458-9357-fbfb94607aa7/image.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;파일이 변경되었기 때문에 바로 push하는 것이 아니라  &lt;span style=&quot;color:red&quot;&gt;add와 commit을 하고 &lt;/span&gt; push하면 충돌이 해결된다. PR에서도 아래와 같이 바뀌면 충돌이 해결된 것이다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/044017e4-ddf3-4869-bc94-9a7ed09853ba/image.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;PR에서의 충돌을 해결할 때 짚고 넘어가야 하는 것은 main브랜치의 변경 사항을 받아왔다고 해서 &lt;span style=&quot;color:red&quot;&gt;main에 다시 push하는 것이 아니라는 것&lt;/span&gt;이다. 원격 저장소의 하위 브랜치에서 main으로 병합을 요청한 상태이니 하위 브랜치로 push해야한다. &lt;span style=&quot;color:gray&quot;&gt; 풀리 퀘스트를 사용하지 않고 하위 브랜치 따위가 상위 브랜치에 뭔가를 올리려고 하지말자&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -233,7 +143,7 @@ Fourscore and seven years ago our fathers brought forth on this continent, a new
       
 
       
-        <summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary>
+        <summary type="html">목록 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하</summary>
       
 
       
@@ -241,12 +151,175 @@ Fourscore and seven years ago our fathers brought forth on this continent, a new
     </entry>
   
     <entry>
-      <title type="html">exam2</title>
-      <link href="https://0andme.github.io/exam2" rel="alternate" type="text/html" title="exam2" />
-      <published>1863-11-19T10:18:00+00:00</published>
-      <updated>1863-11-19T10:18:00+00:00</updated>
-      <id>https://0andme.github.io/exam2</id>
-      <content type="html" xml:base="https://0andme.github.io/exam2">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+      <title type="html">혼자하는 Git/Github 전체적인 흐름 알아보기 - 상</title>
+      <link href="https://0andme.github.io/git_alone_1" rel="alternate" type="text/html" title="혼자하는 Git/Github 전체적인 흐름 알아보기 - 상" />
+      <published>2021-07-31T00:00:01+00:00</published>
+      <updated>2021-07-31T00:00:01+00:00</updated>
+      <id>https://0andme.github.io/git_alone_1</id>
+      <content type="html" xml:base="https://0andme.github.io/git_alone_1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
+
+   
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;모두가 다음과 같은 흐름으로 작업을 하지 않으며 개인의 작업 흐름을 정리해둔 글입니다&lt;/li&gt;
+    &lt;li&gt;git/github 사용의 전체적인 흐름을 파악하고 이해해보는 것이 목표입니다&lt;/li&gt;
+    &lt;li&gt;이 글은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;나의 원격 저장소&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;로컬 저장소&lt;/code&gt;만을 다룹니다.&lt;/li&gt;
+    &lt;li&gt;git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;윈도우 환경에서 실습을 진행&lt;/li&gt;
+    &lt;li&gt;vim 으로 커밋 메세지를 작성&lt;/li&gt;
+    &lt;li&gt;CLI 환경만 이용&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;전체적인-흐름&quot;&gt;전체적인 흐름&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/425eb029-16f9-40ac-9e5d-d18014caa57b/image.png&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/425eb029-16f9-40ac-9e5d-d18014caa57b/image.png&quot; target=&quot;_blank&quot;&gt; 이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이 글에선 원격 저장소에 branch를 푸시하는 4번까지의 과정을 설명합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-원격-저장소를-로컬에-복제하기--clone&quot;&gt;1. 원격 저장소를 로컬에 복제하기 : clone&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/c3ecb1ff-16d4-442a-94ce-64b7d4faa297/image.png&quot; alt=&quot;clone의 흐름&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/c3ecb1ff-16d4-442a-94ce-64b7d4faa297/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;작업 초기에 가장 먼저 실행하는 작업이며 나의 경우 로컬에서의 작업 내역이 아예 없을 때 사용한다. &lt;span style=&quot;color:gray&quot;&gt;로컬에서 로컬저장소를 만들고(git init) 원격저장소와 연결하는 것(git remote add origin github주소 )보다 입력할 명령어가 적기 때문에 실수할 일이 거의 없어 주로 사용한다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;github에서 생성한 저장소를 내 컴퓨터에 가져오기 위해 저장소를 가져올 폴더에서 git bash 창을 열어 아래 명령을 입력한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git clone&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;github주소&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위의 명령어를 치고 bash명령어를 실행했던 폴더를 가보면 원격저장소 이름과 동일한 폴더가 생성되어있을 것이다. 그 폴더 안에 .git폴더가 있다면 로컬저장소가 생긴 것이다.(숨김 해제를 해야 보인다)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;위의 내용대로 실행했다며 현재 bash창을 열었던 폴더에서 생성된 저장소 폴더로 이동하는 과정도 빼트리지 말아야한다. 생성된 저장소 안에서 git bash를 열어도 된다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;cd&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt; 생성된 로컬 저장소 주소(폴더이름) &lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-로컬-저장소에-새로운-branch-만들고-이동하기--branch와-checkout&quot;&gt;2. 로컬 저장소에 새로운 branch 만들고 이동하기 : branch와 checkout&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/3f94f570-27fb-41eb-ae82-587413c051b1/image.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/3f94f570-27fb-41eb-ae82-587413c051b1/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;협업뿐 아니라 개인의 작업을 위해서도 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;가장 중요한 부분&lt;/code&gt;이라고 할 수 있다.&lt;/li&gt;
+  &lt;li&gt;새로운 영역을 만들어 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main branch&lt;/code&gt;의 영역을 건들지 않는 작업이다.
+&lt;span style=&quot;color:gray&quot;&gt;나의 경우 main branch를 최종의 최종의 최종만 담는 공간이자 나의 사수만 관리하는 공간이라고 생각하며 작업한다. 로컬 저장소에서 main branch로 checkout하는 일이 거의 없다. (혼자 작업하는 경우에도 동일)&lt;/span&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git branch&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;생성할 브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이렇게 생성한 브랜치로 이동하기 위해서는 아래의 명령어를 사용한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git checkout&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;이동하고자 하는 브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;3-로컬-저장소에서-작업하고-커밋까지-하기--add와-commit&quot;&gt;3. 로컬 저장소에서 작업하고 커밋까지 하기 : add와 commit&lt;/h3&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;위의 과정을 모두 진행하고 나서는 저장소안에서 자유롭게 작업을 시작하면 되고 항상 잊지말아야 할 것은 현재 브랜치가 어디인지이다.&lt;/li&gt;
+  &lt;li&gt;작업을 마치면 add와 commit을 진행한다.
+&lt;span style=&quot;color:gray&quot;&gt; add를 이용하여 스테이지에 올린 파일들을 하나의 덩어리로 묶는 것이 commit이다.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;아래의 명령어를 이용하여 덩어리로 묶고자하는 파일들을 전부 스테이지에 올린다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git add&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;파일명.확장자&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;add를 통해 스테이지에 올린 파일들을 한 덩어리로 묶는 commit을 실행한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git commit&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://velog.io/@0mi/Git-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B7%9C%EC%B9%99%EA%B3%BC-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98commit-message-convention%EC%A0%95%EB%A6%AC&quot; target=&quot;_blank&quot;&gt;커밋 메시지 규칙과 커밋 컨벤션 정리&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4-원격-저장소에-branch-푸시하기--push&quot;&gt;4. 원격 저장소에 branch 푸시하기 : push&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/927255f7-60d7-4713-9536-48110179f4c9/image.png&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/927255f7-60d7-4713-9536-48110179f4c9/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;로컬 저장소에 쌓인 커밋들을 원격저장소에도 저장하기 위해 push 명령어를 사용한다.
+이때 원격 저장소의 main이 아닌 현재 로컬 브랜치와 동일한 이름의 branch에 작업을 올린다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git push&lt;/span&gt; origin &lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push -u&lt;/code&gt; 옵션을 사용하면 다음 push때 매번 브랜치명을 적지 않고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt;명령어만 입력해도 파일들이 자동으로 해당 branch에 저장된다. &lt;span style=&quot;color:gray&quot;&gt;그러나 나의 경우 -u옵션을 사용하고 나서도 확실히하는 차원에서 ‘git push origin 브랜치명’ 을 사용한다.&lt;/span&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git push -u&lt;/span&gt; origin &lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>0andme</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="git-github" />
+      
+
+      
+        <summary type="html">목록 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL1</title>
+      <link href="https://0andme.github.io/TIL1" rel="alternate" type="text/html" title="TIL1" />
+      <published>2018-09-27T16:40:00+00:00</published>
+      <updated>2018-09-27T16:40:00+00:00</updated>
+      <id>https://0andme.github.io/TIL1</id>
+      <content type="html" xml:base="https://0andme.github.io/TIL1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL1&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+   
+&lt;/ul&gt;
+
+&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
 
 &lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
 
@@ -267,11 +340,56 @@ Fourscore and seven years ago our fathers brought forth on this continent, a new
       
 
       
-        <category term="exam" />
+        <category term="til" />
       
 
       
-        <summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary>
+        <summary type="html">목록 TIL1 TIL2</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">TIL2</title>
+      <link href="https://0andme.github.io/TIL2" rel="alternate" type="text/html" title="TIL2" />
+      <published>2018-09-27T16:40:00+00:00</published>
+      <updated>2018-09-27T16:40:00+00:00</updated>
+      <id>https://0andme.github.io/TIL2</id>
+      <content type="html" xml:base="https://0andme.github.io/TIL2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL1&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
+   
+&lt;/ul&gt;
+
+&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+
+&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>0andme</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="til" />
+      
+
+      
+        <summary type="html">목록 TIL1 TIL2</summary>
       
 
       

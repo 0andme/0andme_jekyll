@@ -11,6 +11,7 @@
         "cssnano": "^3.10.0",
         "graceful-fs": "^4.1.11",
         "gulp": "^3.9.1",
+        "gulp-clean-css": "^4.3.0",
         "gulp-imagemin": "^4.1.0",
         "gulp-postcss": "^7.0.1",
         "gulp-sourcemaps": "^2.6.5",
@@ -22,8 +23,5 @@
     },
     "config": {
         "posts_per_page": 25
-    },
-    "dependencies": {
-        "gist-syntax-themes": "^1.1.0"
     }
 }

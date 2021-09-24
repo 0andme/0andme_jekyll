@@ -18,6 +18,8 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/global.css" />
+
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
     <!-- custom.css -->
     <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
@@ -135,20 +137,18 @@ into the {body} of the default.hbs template -->
         
         
             <ul class="nav" role="menu">
+    <!-- home -->
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <!-- about -->
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-TIL" role="menuitem"><a href="/tag/GIT/">GIT</a></li>
-
-    <li class="nav-TIL" role="menuitem"><a href="/tag/til/">til</a></li>
-    <li class="nav-exam" role="menuitem"><a href="/tag/exam/">exam</a></li>
-    <li class="nav-exam" role="menuitem"><a href="/tag/exam2/">exam2</a></li>
-
-    <li class="nav-archive" role="menuitem">
-        <a href="/archive.html">All Posts</a>
-    </li>
-    <li class="nav-archive" role="menuitem">
-        <a href="/author_archive.html">Tag별 Posts</a>
-    </li>
+    <!-- git-github -->
+    <li class="nav-git-github" role="menuitem"><a href="/tag/git-github/">GIT</a></li>
+    <!-- TIL -->
+    <li class="nav-til" role="menuitem"><a href="/tag/til/">til</a></li>
+    <!-- 모든 포스트 -->
+    <li class="nav-archive" role="menuitem"><a href="/archive.html">All Posts</a></li>
+    <!-- 태그별 포스트 -->
+    <li class="nav-archive" role="menuitem"><a href="/author_archive.html">Tag별 Posts</a></li>
 </ul>
         
     </div>
@@ -188,13 +188,7 @@ into the {body} of the default.hbs template -->
 <ul class="entry-meta inline-list">
   
     
-  	<li><a href="#exam" class="tag"><span class="term alltags">exam</span> <span class="count alltags">2</span></a></li>
-  
-    
-  	<li><a href="#exam2" class="tag"><span class="term alltags">exam2</span> <span class="count alltags">1</span></a></li>
-  
-    
-  	<li><a href="#git-github" class="tag"><span class="term alltags">git-github</span> <span class="count alltags">1</span></a></li>
+  	<li><a href="#git-github" class="tag"><span class="term alltags">git-github</span> <span class="count alltags">2</span></a></li>
   
     
   	<li><a href="#til" class="tag"><span class="term alltags">til</span> <span class="count alltags">2</span></a></li>
@@ -204,36 +198,14 @@ into the {body} of the default.hbs template -->
 
   
 	<article>
-	<h2 id="exam" class="tag-heading">EXAM</h2>
-		<ul>
-    
-      <!-- <li class="entry-title"><a href="https://0andme.github.io/exam" target="_blank" title="exam">exam</a></li> -->
-      <li class="entry-title"><a href="/exam" target="_blank" title="exam">exam</a></li>
-    
-      <!-- <li class="entry-title"><a href="https://0andme.github.io/exam2" target="_blank" title="exam2">exam2</a></li> -->
-      <li class="entry-title"><a href="/exam2" target="_blank" title="exam2">exam2</a></li>
-    
-		</ul>
-	</article><!-- /.hentry -->
-
-  
-	<article>
-	<h2 id="exam2" class="tag-heading">EXAM2</h2>
-		<ul>
-    
-      <!-- <li class="entry-title"><a href="https://0andme.github.io/exam22" target="_blank" title="exam2">exam2</a></li> -->
-      <li class="entry-title"><a href="/exam22" target="_blank" title="exam2">exam2</a></li>
-    
-		</ul>
-	</article><!-- /.hentry -->
-
-  
-	<article>
 	<h2 id="git-github" class="tag-heading">GIT-GITHUB</h2>
 		<ul>
     
-      <!-- <li class="entry-title"><a href="https://0andme.github.io/GIT1" target="_blank" title="git-github1">git-github1</a></li> -->
-      <li class="entry-title"><a href="/GIT1" target="_blank" title="git-github1">git-github1</a></li>
+      <!-- <li class="entry-title"><a href="https://0andme.github.io/git_alone_2" target="_blank" title="혼자하는 Git/Github 전체적인 흐름 알아보기 - 하">혼자하는 Git/Github 전체적인 흐름 알아보기 - 하</a></li> -->
+      <li class="entry-title"><a href="/git_alone_2" target="_blank" title="혼자하는 Git/Github 전체적인 흐름 알아보기 - 하">혼자하는 Git/Github 전체적인 흐름 알아보기 - 하</a></li>
+    
+      <!-- <li class="entry-title"><a href="https://0andme.github.io/git_alone_1" target="_blank" title="혼자하는 Git/Github 전체적인 흐름 알아보기 - 상">혼자하는 Git/Github 전체적인 흐름 알아보기 - 상</a></li> -->
+      <li class="entry-title"><a href="/git_alone_1" target="_blank" title="혼자하는 Git/Github 전체적인 흐름 알아보기 - 상">혼자하는 Git/Github 전체적인 흐름 알아보기 - 상</a></li>
     
 		</ul>
 	</article><!-- /.hentry -->
@@ -363,7 +335,7 @@ $(function() {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-xxxxxxxx-x', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
  </script>
