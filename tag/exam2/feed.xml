@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/exam2/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-23T23:19:50+00:00</updated>
+  <updated>2021-09-24T10:27:33+00:00</updated>
   <id>https://0andme.github.io/tag/exam2/feed.xml</id>
 
   
@@ -37,13 +37,7 @@
       <published>2018-09-27T16:40:00+00:00</published>
       <updated>2018-09-27T16:40:00+00:00</updated>
       <id>https://0andme.github.io/exam22</id>
-      <content type="html" xml:base="https://0andme.github.io/exam22">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git-Github 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./exam&quot;&gt;exam1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./exam2&quot;&gt;exam2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+      <content type="html" xml:base="https://0andme.github.io/exam22">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
 
 &lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
 
@@ -73,7 +67,7 @@ Fourscore and seven years ago our fathers brought forth on this continent, a new
       
 
       
-        <summary type="html">Git-Github 강좌는 여러 절로 구성되어 있습니다. exam1 exam2</summary>
+        <summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary>
       
 
       
