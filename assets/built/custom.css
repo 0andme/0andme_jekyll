@@ -545,7 +545,7 @@ ul.mylist li:hover {
 
 span.table-of-contents-list {
   border-bottom: 1px solid #efefef;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 700;
   color: #ce180b
 }
@@ -1173,19 +1173,22 @@ ul.lecture-reference li:before {
 
 .entry-meta .tag span {
   float: left;
-  padding: 2px 6px;
+  padding: 4px 6px;
   color: #000;
   font-family: inherit;
   background-color: #f0f8ff
 }
 
 .entry-meta .tag .count {
-  border-radius: 0 3px 3px 0
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+
 }
 
 .entry-meta .tag .count,
 .entry-meta .tag:hover {
-  background-color: hsla(0, 0%, 53%, .8)
+  background-color:#bb392d;
+  /* background-color: hsla(0, 0%, 53%, .8) */
 }
 
 .entry-meta .entry-reading-time {

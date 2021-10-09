@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/tag/git-github/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-10-09T17:25:03+00:00</updated>
+  <updated>2021-10-09T20:15:54+00:00</updated>
   <id>https://0andme.github.io/tag/git-github/feed.xml</id>
 
   
@@ -37,16 +37,33 @@
       <published>2021-08-10T00:00:01+00:00</published>
       <updated>2021-08-10T00:00:01+00:00</updated>
       <id>https://0andme.github.io/git_withTeam</id>
-      <content type="html" xml:base="https://0andme.github.io/git_withTeam">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://0andme.github.io/git_withTeam">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 &lt;hr /&gt;
 &lt;blockquote&gt;
@@ -201,7 +218,7 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
       
 
       
-        <summary type="html">목록 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
+        <summary type="html">Git/Github 글 목록 닫기 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
       
 
       
@@ -214,16 +231,33 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
       <published>2021-08-01T00:00:01+00:00</published>
       <updated>2021-08-01T00:00:01+00:00</updated>
       <id>https://0andme.github.io/git_alone_example</id>
-      <content type="html" xml:base="https://0andme.github.io/git_alone_example">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://0andme.github.io/git_alone_example">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 &lt;hr /&gt;
 &lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
@@ -372,7 +406,7 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
       
 
       
-        <summary type="html">목록 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
+        <summary type="html">Git/Github 글 목록 닫기 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
       
 
       
@@ -385,16 +419,33 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
       <published>2021-08-01T00:00:00+00:00</published>
       <updated>2021-08-01T00:00:00+00:00</updated>
       <id>https://0andme.github.io/git_alone_2</id>
-      <content type="html" xml:base="https://0andme.github.io/git_alone_2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://0andme.github.io/git_alone_2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 &lt;hr /&gt;
 &lt;h3 id=&quot;5-풀리퀘스트-prpull-request보내기&quot;&gt;5. 풀리퀘스트 PR(pull request)보내기&lt;/h3&gt;
@@ -521,7 +572,7 @@ Pull requests -&amp;gt; new pull request 버튼을 누른다.&lt;/p&gt;
       
 
       
-        <summary type="html">목록 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
+        <summary type="html">Git/Github 글 목록 닫기 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
       
 
       
@@ -534,16 +585,33 @@ Pull requests -&amp;gt; new pull request 버튼을 누른다.&lt;/p&gt;
       <published>2021-07-31T00:00:01+00:00</published>
       <updated>2021-07-31T00:00:01+00:00</updated>
       <id>https://0andme.github.io/git_alone_1</id>
-      <content type="html" xml:base="https://0andme.github.io/git_alone_1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://0andme.github.io/git_alone_1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 &lt;hr /&gt;
 
@@ -679,7 +747,7 @@ Pull requests -&amp;gt; new pull request 버튼을 누른다.&lt;/p&gt;
       
 
       
-        <summary type="html">목록 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
+        <summary type="html">Git/Github 글 목록 닫기 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하 [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시 [함께하는 Git/Github] 팀원과 프로젝트 함께하기</summary>
       
 
       

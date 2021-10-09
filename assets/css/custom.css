@@ -58,7 +58,7 @@ span.table-of-contents-list {
   max-width: 250px;
   width: 100%;
   border-bottom: 1px solid #efefef;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: bold;
   color: #ce180b;
   font-family: Georgia, 'Nanum Gothic', serif !important;
@@ -772,7 +772,7 @@ All this is done for any sub-level being entered.
 
 .entry-meta .tag span {
   float: left;
-  padding: 2px 6px;
+  padding: 4px 6px;
   color: black;
   font-family: inherit;
   background-color: aliceblue;
@@ -784,7 +784,9 @@ All this is done for any sub-level being entered.
 }
 
 .entry-meta .tag:hover {
-  background-color: rgba(136, 136, 136, 0.8);
+  background-color:#bb392d;
+
+  /* background-color: rgba(136, 136, 136, 0.8); */
 }
 
 .entry-meta .entry-reading-time {

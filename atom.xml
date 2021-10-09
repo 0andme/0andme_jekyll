@@ -8,18 +8,910 @@
     
       
       <item>
+        <title>2021.08.27</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Fri, 27 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.27</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.27</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.26</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;p&gt;✅ 실시간 강의 수강&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 26 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.26</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.26</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.24</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;p&gt;✅ 강사님이 내주신 카드 만들기 과제 수행
+✅ TIL, 워크시트 작성&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 24 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.24</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.24</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.23</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;p&gt;✅ HTML/css 실강 듣기&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 23 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.23</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.23</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.20</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ html/css강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 20 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.20</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.20</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.19</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ 실강 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL/워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.19</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.19</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.18</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.18</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.18</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.17</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ HTML/CSS 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL/워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 17 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.17</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.17</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.13</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ 3주차 과제 회고&lt;/li&gt;
+  &lt;li&gt;✅ TIL, 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.13</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.13</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.12</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ 운영체제 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL, 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;✅ 퀴즈 제작&lt;/li&gt;
+  &lt;li&gt;✅ 4주차 과제 제출&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 12 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.12</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.12</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.11</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ 운영체제 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL, 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 11 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.11</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.11</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>함께하는 Git/Github 팀원과 프로젝트 함께하기</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 </description>
         
@@ -32,18 +924,690 @@
     
       
       <item>
+        <title>2021.08.10</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅HTML/CSS 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅TIL, 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;운영체제 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 10 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.10</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.10</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.09</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ HTML/CSS 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL, 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;✅ 4주차 HTML 과제 진행&lt;/li&gt;
+  &lt;li&gt;❌ 운영체제 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 09 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.09</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.09</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.08</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;자바 스크립트 책 읽기&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 08 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.08</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.08</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.06</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;p&gt;✅ 2주차 과제 피드백을 보고 코드 수정 후 머지 까지하기
+✅ TIL 작성 및 커밋
+✅ 블로그 작성&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 06 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.06</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.06</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.05</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅운영체제 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL 작성 및 커밋&lt;/li&gt;
+  &lt;li&gt;✅ 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Thu, 05 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.05</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.05</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.04</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ 운영체제 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ js 강의 듣기&lt;/li&gt;
+  &lt;li&gt;✅ TIL 작성 및 커밋&lt;/li&gt;
+  &lt;li&gt;✅ 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 04 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.04</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.04</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.03</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ TIL 작성 및 커밋&lt;/li&gt;
+  &lt;li&gt;✅ 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;✅ 3주차 과제를 위한 파이썬 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 03 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.03</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.03</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.08.02</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;✅ TIL작성 및 커밋&lt;/li&gt;
+  &lt;li&gt;✅ 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;✅ 3주차 과제를 위한 파이썬 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 02 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.02</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.02</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>혼자하는 Git/Github 전체적인 흐름 알아보기 - 예시</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 </description>
         
@@ -56,18 +1620,116 @@
     
       
       <item>
+        <title>2021.08.01</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git/github 예제 정리하기&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;git flow 복습하기&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.08.01</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.08.01</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>혼자하는 Git/Github 전체적인 흐름 알아보기 - 하</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 </description>
         
@@ -82,16 +1744,33 @@
       <item>
         <title>혼자하는 Git/Github 전체적인 흐름 알아보기 - 상</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
-
-
-
 &lt;/ul&gt;
+
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    console.log(ulList);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
 
 </description>
         
@@ -104,41 +1783,1040 @@
     
       
       <item>
-        <title>TIL2</title>
+        <title>2021.07.31</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록&lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL1&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
-   
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git/github 배운 것 정리 하기&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Sep 2018 16:40:00 +0000</pubDate>
+        <pubDate>Sat, 31 Jul 2021 00:00:01 +0000</pubDate>
         <link>
-        https://0andme.github.io/TIL2</link>
-        <guid isPermaLink="true">https://0andme.github.io/TIL2</guid>
+        https://0andme.github.io/2021.07.31</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.31</guid>
       </item>
       
     
       
       <item>
-        <title>TIL1</title>
+        <title>2021.07.30</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록&lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL1&quot;&gt;TIL1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/TIL2&quot;&gt;TIL2&lt;/a&gt;&lt;/li&gt;
-   
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;1주차 과제 회고&lt;/li&gt;
+  &lt;li&gt;git/github 강의 복습하기&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Sep 2018 16:40:00 +0000</pubDate>
+        <pubDate>Fri, 30 Jul 2021 00:00:01 +0000</pubDate>
         <link>
-        https://0andme.github.io/TIL1</link>
-        <guid isPermaLink="true">https://0andme.github.io/TIL1</guid>
+        https://0andme.github.io/2021.07.30</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.30</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.29</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Thu, 29 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.29</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.29</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.28</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;실시간 강의 듣고 복습하기&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;퀴즈 만들기&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 28 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.28</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.28</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.27</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS강의 듣기&lt;/li&gt;
+  &lt;li&gt;블로그 작성&lt;/li&gt;
+  &lt;li&gt;TIL,워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS 복습을 위해 어제 들은 강의에 대한 정리를 진행
+&lt;a href=&quot;https://velog.io/@0mi/series/JavaScript&quot;&gt;JS 시리즈 링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 27 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.27</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.27</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.26</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Mon, 26 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.26</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.26</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.25</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;github관리&lt;/li&gt;
+  &lt;li&gt;TIL, 블로그 작성&lt;/li&gt;
+  &lt;li&gt;워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.25</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.25</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.24</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;js 강의 이어서 수강&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;CS 강의 이어서 수강&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;github관리&lt;/li&gt;
+  &lt;li&gt;TIL, 블로그 작성&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;TIL과 블로그 작성에 집중했던 날&lt;/li&gt;
+  &lt;li&gt;운영체제에 대한 글에 살을 덧붙여 작성하였다.&lt;/li&gt;
+  &lt;li&gt;깊이 배운 것이 아니기에 블로그에 적고자 하는 부분이 오류가 없는지 확인하는 작업을 했다.
+    &lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 24 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.24</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.24</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.23</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Fri, 23 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.23</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.23</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.22</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Thu, 22 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.22</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.22</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.21</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Wed, 21 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.21</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.21</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.20</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.20</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.20</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>2021.07.19</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
+
+    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
+
+
+    
+
+&lt;/ul&gt;
+&lt;script&gt;
+    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
+    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
+    postlist_btn.addEventListener('click', function () {
+
+        if (ulList.style.display === &quot;none&quot;) {
+            ulList.style.display = &quot;block&quot;;
+            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
+        } else {
+            ulList.style.display = &quot;none&quot;;
+            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+
+        }
+    })
+&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로그래밍 기초 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 19 Jul 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/2021.07.19</link>
+        <guid isPermaLink="true">https://0andme.github.io/2021.07.19</guid>
       </item>
       
     
