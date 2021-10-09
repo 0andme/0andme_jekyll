@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/author/0andme/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-10-09T17:05:05+00:00</updated>
+  <updated>2021-10-09T17:25:03+00:00</updated>
   <id>https://0andme.github.io/author/0andme/feed.xml</id>
 
   
@@ -90,8 +90,9 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
 &lt;h3 id=&quot;1-프로젝트를-위한-원격-저장소-만들기&quot;&gt;1. 프로젝트를 위한 원격 저장소 만들기&lt;/h3&gt;
 
 &lt;p&gt;팀장 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;가 다음과 같이 자신의 github에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_project&lt;/code&gt;원격 저장소를 만들고 팀원에게 해당 저장소 주소를 공유한다.
-&lt;img src=&quot;&quot; width=&quot;100%&quot; /&gt;
-&lt;img src=&quot;https://images.velog.io/images/0mi/post/e5222613-d888-4aef-83b5-2b10fd59b66b/image.png&quot; alt=&quot;&quot; /&gt;앞으로 이 저장소는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메인 저장소&lt;/code&gt;가 되며 개개인이 작업한 결과물을 한 곳에 모으는 곳이 된다. 실습에서는 팀장이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt; 브랜치를 만들었고 모든 팀원은 해당 브랜치로 PR을 보내는 형태로 진행된다.&lt;/p&gt;
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/e5222613-d888-4aef-83b5-2b10fd59b66b/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;앞으로 이 저장소는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메인 저장소&lt;/code&gt;가 되며 개개인이 작업한 결과물을 한 곳에 모으는 곳이 된다. 실습에서는 팀장이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt; 브랜치를 만들었고 모든 팀원은 해당 브랜치로 PR을 보내는 형태로 진행된다.&lt;/p&gt;
 &lt;h3 id=&quot;2-milestone프로젝트-생성&quot;&gt;2. milestone,프로젝트 생성&lt;/h3&gt;
 
 &lt;p&gt;팀장은  milestone과 프로젝트를 생성할 수 있다.&lt;/p&gt;
@@ -100,22 +101,28 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
   &lt;li&gt;&lt;strong&gt;Milestone 생성&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;이슈들을 그룹화하는 Milestone을 생성하면 이슈들을 묶어 관리할 수 있다
-&lt;img src=&quot;https://images.velog.io/images/0mi/post/98abc717-cb6c-4a8e-a713-e09987532ed0/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;이슈들을 그룹화하는 Milestone을 생성하면 이슈들을 묶어 관리할 수 있다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/98abc717-cb6c-4a8e-a713-e09987532ed0/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;h4 id=&quot;팀장의-프로젝트-생성&quot;&gt;팀장의 프로젝트 생성&lt;/h4&gt;
     &lt;p&gt;실습에는 템플릿을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Automated kanban&lt;/code&gt;을 사용했다.
-&lt;img src=&quot;https://images.velog.io/images/0mi/post/79d4b98b-891a-450c-882b-54328f771b67/image.png&quot; alt=&quot;&quot; /&gt;프로젝트 탭에서 프로젝트가 잘 생성됐는지 확인해보면 아래와 같이 나타날 것이다. 템플릿을 적용한 형태이기 때문에 다른 템플릿을 골랐다면 다르게 나타날 것이다. issue 목록에서 issue 카드를 드래그 앤 드롭으로 To do, Done등으로 옮기며 작업 상황을 변경하면 된다.&lt;img src=&quot;https://images.velog.io/images/0mi/post/6fa3829f-a137-4474-8d78-bba3c470206e/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-    &lt;h3 id=&quot;3-작업하기&quot;&gt;3. 작업하기&lt;/h3&gt;
-    &lt;p&gt;팀장은 메인 저장소가 자신의 저장소이니 자유롭게 파일을 올리면 되는데 실습에서는 팀장이 해당 프로젝트를&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt; 브랜치에서 작업하였다.&lt;/p&gt;
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/79d4b98b-891a-450c-882b-54328f771b67/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;프로젝트 탭에서 프로젝트가 잘 생성됐는지 확인해보면 아래와 같이 나타날 것이다. 템플릿을 적용한 형태이기 때문에 다른 템플릿을 골랐다면 다르게 나타날 것이다. issue 목록에서 issue 카드를 드래그 앤 드롭으로 To do, Done등으로 옮기며 작업 상황을 변경하면 된다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/6fa3829f-a137-4474-8d78-bba3c470206e/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-작업하기&quot;&gt;3. 작업하기&lt;/h3&gt;
+&lt;p&gt;팀장은 메인 저장소가 자신의 저장소이니 자유롭게 파일을 올리면 되는데 실습에서는 팀장이 해당 프로젝트를&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt; 브랜치에서 작업하였다.&lt;/p&gt;
 
 &lt;h3 id=&quot;4-승인하고-merge하기&quot;&gt;4. 승인하고 merge하기&lt;/h3&gt;
 &lt;p&gt;팀장은 팀원이 보낸 PR을 확인하여 수정사항이 필요하면 코멘트를 남기거나 바로 merge를 하면 된다.&lt;/p&gt;
 &lt;h3 id=&quot;5-원격-저장소의-변경사항-로컬로-가져오기&quot;&gt;5. 원격 저장소의 변경사항 로컬로 가져오기&lt;/h3&gt;
-&lt;p&gt;팀원의 파일이 자신의 원격저장소에 merge되었음으로 자신의 로컬에서 작업한 내용을 push하기 전에 원격저장소의 변경사항을 받아오는 작업을 해야 충돌이 나지 않는다.&lt;a href=&quot;https://velog.io/@0mi/혼자하는-GitGithub-전체적인-흐름-알아보기-하&quot;&gt; 변경사항 받아오기 - 참조 링크&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;팀원의 파일이 자신의 원격저장소에 merge되었음으로 자신의 로컬에서 작업한 내용을 push하기 전에 원격저장소의 변경사항을 받아오는 작업을 해야 충돌이 나지 않는다.
+&lt;a href=&quot;https://0andme.github.io/git_alone_2&quot; target=&quot;_blank&quot;&gt; 참조 링크&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; origin&lt;/span&gt;&lt;span style=&quot;color:green&quot;&gt; new&lt;/span&gt;
 &lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;  FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
@@ -126,27 +133,35 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
 &lt;h2 id=&quot;-팀원-&quot;&gt;◼ 팀원 🏠&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-팀장의-원격-저장소-가져오기-fork&quot;&gt;1. 팀장의 원격 저장소 가져오기 fork&lt;/h3&gt;
+
 &lt;p&gt;fork란 타겟이 되는 저장소의 사본을 가져오는 것이다. 팀장의 원격저장소에서 fork버튼을 누르고 팀원의 로컬에서 내려받으면 된다. clone과 다른 점은 fork된 저장소를 변경할 수 있다는 점이다.
-팀장 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;의 원격 저장소 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_project&lt;/code&gt;에서 오른쪽 상단의 fork버튼을 누르면 로딩 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;팀원 이름(0andme2) / 팀장의 원격저장소 이름(git_project)&lt;/code&gt; 형태로 팀원의 원격 저장소가 생긴다. 그리고 그 이름 아래에는 어디서 fork된 저장소인지도 나온다.&lt;img src=&quot;https://images.velog.io/images/0mi/post/ddf77d21-a8bb-4731-ab1d-753a07ce3c29/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+팀장 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;의 원격 저장소 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_project&lt;/code&gt;에서 오른쪽 상단의 fork버튼을 누르면 로딩 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;팀원 이름(0andme2) / 팀장의 원격저장소 이름(git_project)&lt;/code&gt; 형태로 팀원의 원격 저장소가 생긴다. 그리고 그 이름 아래에는 어디서 fork된 저장소인지도 나온다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/ddf77d21-a8bb-4731-ab1d-753a07ce3c29/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;2-새로운-브랜치에서-작업하기&quot;&gt;2. 새로운 브랜치에서 작업하기&lt;/h3&gt;
 &lt;p&gt;팀원은 자신의 원격 저장소가 생겼으니 이를 로컬에서 다운 받아 작업을 시작하면 된다.
-원격 저장소를 복제하고 작업한 후 결과물을 나의 원격 저장소에 push하는 것까지 아래의 흐름대로 따라 하면 된다. 간단하게 clone하기-&amp;gt; 파일 생성 등의 작업하기-&amp;gt; add하기-&amp;gt;commit하기-&amp;gt;push하기이다. &lt;a href=&quot;https://velog.io/@0mi/혼자하는-GitGithub-전체적인-흐름-알아보기-상&quot; target=&quot;_blank&quot;&gt;참조 링크&lt;/a&gt;&lt;/p&gt;
+원격 저장소를 복제하고 작업한 후 결과물을 나의 원격 저장소에 push하는 것까지 아래의 흐름대로 따라 하면 된다. 간단하게 clone하기-&amp;gt; 파일 생성 등의 작업하기-&amp;gt; add하기-&amp;gt;commit하기-&amp;gt;push하기이다. &lt;a href=&quot;https://0andme.github.io/git_alone_1&quot; target=&quot;_blank&quot;&gt;참조 링크&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;팀장은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치에서 작업을 하고 있다. 팀원도 동일한 브랜치에서 작업할 순 있지만 또다른 브랜치를 생성하고 나서 new브랜치로 머지한 후 PR을 보내는 것을 더 권장한다.&lt;/p&gt;
+
 &lt;h3 id=&quot;3-pr-생성&quot;&gt;3. PR 생성&lt;/h3&gt;
-&lt;p&gt;PR 퀘스트를 보낼 때 한번 더 확인해봐야하는 것은 아래와 같이 팀원의 원격저장소의 어떤 브랜치를 팀장의 원격저장소의 어떤 브랜치로의 merge를 요청하는지이다. 실습에서 팀장의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치로 merge하기로 하였으므로 이를 확인하고 보내면 된다. &lt;span style=&quot;color:gray&quot;&gt;대부분 잘 정해져있다.&lt;/span&gt; &lt;strong&gt;이때 코멘트를 작성하는 부분에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;을 작성하면 자동으로 현재 생성된 이슈목록들이 나온다.&lt;/strong&gt; 목록 중에서 현재 merge를 요청한 작업이 어떤 이슈에 대한 작업물인지 찾아 클릭하면 된다. 실습에서는 이슈번호가 5였다. &lt;a href=&quot;https://velog.io/@0mi/혼자하는-GitGithub-전체적인-흐름-알아보기-하&quot;&gt; PR 생성 참조 링크&lt;/a&gt;
-&lt;img src=&quot;https://images.velog.io/images/0mi/post/65b1e51d-7ecb-4937-b68a-b512f6d74250/image.png&quot; alt=&quot;&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/65b1e51d-7ecb-4937-b68a-b512f6d74250/image.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PR 퀘스트를 보낼 때 한번 더 확인해봐야하는 것은 아래와 같이 팀원의 원격저장소의 어떤 브랜치를 팀장의 원격저장소의 어떤 브랜치로의 merge를 요청하는지이다. 실습에서 팀장의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치로 merge하기로 하였으므로 이를 확인하고 보내면 된다. &lt;span style=&quot;color:gray&quot;&gt;대부분 잘 정해져있다.&lt;/span&gt; &lt;strong&gt;이때 코멘트를 작성하는 부분에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;을 작성하면 자동으로 현재 생성된 이슈목록들이 나온다.&lt;/strong&gt; 목록 중에서 현재 merge를 요청한 작업이 어떤 이슈에 대한 작업물인지 찾아 클릭하면 된다. 실습에서는 이슈번호가 5였다. &lt;a href=&quot;https://0andme.github.io/git_alone_2&quot; target=&quot;_blank&quot;&gt; PR 생성 참조 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.vlpt.us/images/0mi/post/65b1e51d-7ecb-4937-b68a-b512f6d74250/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;4-메인-원격-저장소의-변경사항-받아오기&quot;&gt;4. 메인 원격 저장소의 변경사항 받아오기&lt;/h3&gt;
 
 &lt;p&gt;PR이 승인되면 팀장의 원격저장소의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치의 변경사항이 생기게 된다. 다음 작업을 위해선 팀장과 마찬가지로 팀원도 이를 자신의 로컬저장소로 가져오는 작업이 필요하다.&lt;/p&gt;
 &lt;h4 id=&quot;1upstream-추가하기&quot;&gt;1.&lt;strong&gt;upstream 추가하기&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;PR을 생성하려고 하거나 혹은 생성했는데 충돌로 인해 merge가 되지 않는다고 나온다면 팀장의 원격 저장소의 변경사항을 로컬로 가져와서 작업한 후 PR을 요청했던 나의 원격저장소로 push해주면 된다. 이때 새로운 원격 저장소를 추가해줘야 한다. 이때 나오는 개념이 upstream이다.
-&lt;img src=&quot;https://images.velog.io/images/0mi/post/8f985894-7282-4cc6-a2a3-509112eb76b5/image.png&quot; alt=&quot;&quot; /&gt;
-간단히 말하면 나의 로컬 저장소에서 봤을때&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fork한 남의 저장소&lt;/code&gt;가&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내 원격저장소&lt;/code&gt;가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;인 것이다.
-실습예제 상황에서 봤을 때, 팀원&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme2&lt;/code&gt;의 로컬 저장소 입장에서 팀장&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;의 원격 저장소는&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;, 팀원의&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내 원격저장소&lt;/code&gt;가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;인 것이다.
-&lt;br /&gt;
-먼저 아래의 git명령어로 현재 로컬 저장소와 연결된 원격 저장소 목록을 확인해볼 수 있다.&lt;/p&gt;
+&lt;p&gt;PR을 생성하려고 하거나 혹은 생성했는데 충돌로 인해 merge가 되지 않는다고 나온다면 팀장의 원격 저장소의 변경사항을 로컬로 가져와서 작업한 후 PR을 요청했던 나의 원격저장소로 push해주면 된다. 이때 새로운 원격 저장소를 추가해줘야 한다. 이때 나오는 개념이 upstream이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8f985894-7282-4cc6-a2a3-509112eb76b5/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;간단히 말하면 나의 로컬 저장소에서 봤을때&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fork한 남의 저장소&lt;/code&gt;가&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내 원격저장소&lt;/code&gt;가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;인 것이다.&lt;/p&gt;
+
+&lt;p&gt;실습예제 상황에서 봤을 때, 팀원&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme2&lt;/code&gt;의 로컬 저장소 입장에서 팀장&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;의 원격 저장소는&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;, 팀원의&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내 원격저장소&lt;/code&gt;가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;인 것이다.&lt;/p&gt;
+
+&lt;p&gt;먼저 아래의 git명령어로 현재 로컬 저장소와 연결된 원격 저장소 목록을 확인해볼 수 있다.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git remote&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; -v &lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -157,11 +172,14 @@ git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&
 &lt;/blockquote&gt;
 
 &lt;h4 id=&quot;2-변경사항-받아오기&quot;&gt;2. 변경사항 받아오기&lt;/h4&gt;
-&lt;p&gt;팀장의 원격 저장소의 변경사항을 가져오는 것이기 때문에 origin이 아닌 upstream에서 변경사항을 가져와야 한다는 것을 알면 된다.
-&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;팀장의 원격 저장소의 변경사항을 가져오는 것이기 때문에 origin이 아닌 upstream의 new 브랜치에서 변경사항을 가져와야 한다는 것을 알면 된다.&lt;/p&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; upstream&lt;/span&gt;&lt;span style=&quot;color:green&quot;&gt; new&lt;/span&gt;
-&lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;  FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; upstream&lt;/span&gt;&lt;span style=&quot;color:green&quot;&gt; new&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;  FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</content>
 
       
