@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://0andme.github.io/author/0andme/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://0andme.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-09-24T15:09:14+00:00</updated>
+  <updated>2021-10-09T15:55:59+00:00</updated>
   <id>https://0andme.github.io/author/0andme/feed.xml</id>
 
   
@@ -240,8 +240,7 @@
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;3-로컬-저장소에서-작업하고-커밋까지-하기--add와-commit&quot;&gt;3. 로컬 저장소에서 작업하고 커밋까지 하기 : add와 commit&lt;/h3&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; width=&quot;500px&quot; /&gt; &lt;a href=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;위의 과정을 모두 진행하고 나서는 저장소안에서 자유롭게 작업을 시작하면 되고 항상 잊지말아야 할 것은 현재 브랜치가 어디인지이다.&lt;/li&gt;
