@@ -8,14 +8,65 @@
     
       
       <item>
+        <title>함께하는 Git/Github 팀원과 프로젝트 함께하기</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
+
+
+
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 10 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/git_withTeam</link>
+        <guid isPermaLink="true">https://0andme.github.io/git_withTeam</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>혼자하는 Git/Github 전체적인 흐름 알아보기 - 예시</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
+
+
+
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Aug 2021 00:00:01 +0000</pubDate>
+        <link>
+        https://0andme.github.io/git_alone_example</link>
+        <guid isPermaLink="true">https://0andme.github.io/git_alone_example</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>혼자하는 Git/Github 전체적인 흐름 알아보기 - 하</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;목록 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
 
-   
+
+
 &lt;/ul&gt;
 
 </description>
@@ -35,8 +86,11 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_2&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 하&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_alone_example&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 예시&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
 
-   
+
+
 &lt;/ul&gt;
 
 </description>
