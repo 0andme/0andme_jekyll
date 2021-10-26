@@ -4,14 +4,14 @@
     <title> - Articles</title>
     <description>LV.99 개발자 되기</description>
     <link>
-    https://0andme.github.io</link>
+    http://localhost:4000</link>
     
       
       <item>
         <title>2021.08.27</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -55,30 +55,31 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;p&gt;✅ 강의를 들으며 스타벅스 클론 코딩 시작&lt;/p&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;스타벅스 홈페이지 헤더제작&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;결과&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8c91d4dd-e514-45d6-bed7-b44e5fc932b9/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;position 속성과 top, bottom, left, right 속성을 사용하여 헤더를 만들었다. 만들면서 느낀 것은 같은 수평 정렬을 만들더라도 확대했을 때나 창 크기를 줄였을때 어떠한 변화를 줄 것인지를 생각하고 css 흐름을 짜는 것도 쉽지 않은 일인 듯 했다😭&lt;/p&gt;
 </description>
         
-        <pubDate>Fri, 27 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Fri, 27 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.27</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.27</guid>
+        http://localhost:4000/2021.08.27</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.27</guid>
       </item>
       
     
@@ -87,7 +88,7 @@
         <title>2021.08.26</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -131,32 +132,31 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;p&gt;✅ 실시간 강의 수강&lt;/p&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;float에 대해 배우고 실습&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;혼자 공부할 때는 ‘정렬할 때 사용하는 속성이구나’ 정도로만 알고 사용하는 느낌이였는데 float이 의미 그대로 새로운 float층에 요소를 올리는 것이라는 것을 알게되니 요소들이 배치되는 원리를 이해하기 쉬웠다.&lt;/li&gt;
+  &lt;li&gt;다만 어떨 때 float을 쓰는 것이 좋을지에 대한 고민거리가 하나 더 생겼다&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Thu, 26 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Thu, 26 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.26</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.26</guid>
+        http://localhost:4000/2021.08.26</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.26</guid>
       </item>
       
     
@@ -165,7 +165,7 @@
         <title>2021.08.24</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -209,33 +209,33 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;p&gt;✅ 강사님이 내주신 카드 만들기 과제 수행
 ✅ TIL, 워크시트 작성&lt;/p&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;어제 강사님이 내주신 카드 만들기 과제를 수행했다. 만들어야 하는 카드는 총 9개였는데 어떤 태그를 쓸지, 재사용과 유지보수를 위해선 어떻게 구조를 짤지 생각하면서 코드를 작성하다보니 3개정도 제작할 수 있었다. 그래도 뿌듯!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML /css 강의듣기&lt;/li&gt;
+  &lt;li&gt;강사님이 내주신 카드 만들기 과제 이어서 수행&lt;/li&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Tue, 24 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 24 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.24</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.24</guid>
+        http://localhost:4000/2021.08.24</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.24</guid>
       </item>
       
     
@@ -244,7 +244,7 @@
         <title>2021.08.23</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -288,32 +288,32 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;p&gt;✅ HTML/css 실강 듣기&lt;/p&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;html/css 실강을 들었다. 개발자 도구로 html태그를 찍어 보며 모든 css를 설정하지 않아도 화면에 출력될 수 있는 이유에 대해 배웠다.&lt;/li&gt;
+  &lt;li&gt;개발자 도구 - 프로퍼티스를 눌러 태그를 생성하면 속성리스트들이 알아서 생성되는 것을 확인하였고 기본 값으로 설정되어 있는 값들도 확인해보았다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;강사님이 내주신 카드 만들기 과제 수행해보기&lt;/li&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Mon, 23 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Mon, 23 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.23</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.23</guid>
+        http://localhost:4000/2021.08.23</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.23</guid>
       </item>
       
     
@@ -322,7 +322,7 @@
         <title>2021.08.20</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -366,35 +366,29 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ html/css강의 듣기&lt;/li&gt;
   &lt;li&gt;✅ TIL작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;오버워치 캐릭터 선택 화면을 만들어보는 예제를 강의와 함께 실습을 해보았다.
+강의에서 작성하라는 대로 작성하는 것은 도움이 안된다는 것을 알기에 먼저 생각해보고 코드를 작성한 후 이어서 강의를 들었다.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Fri, 20 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Fri, 20 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.20</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.20</guid>
+        http://localhost:4000/2021.08.20</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.20</guid>
       </item>
       
     
@@ -403,7 +397,7 @@
         <title>2021.08.19</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -447,35 +441,40 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ 실강 듣기&lt;/li&gt;
   &lt;li&gt;✅ TIL/워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML/CSS 실강을 들었다. 실제 운영되고 있는 홈페이지를 보며 어떤 태그를 사용했을지 살펴보는 시간을 잠깐 가졌는데 바로 바로 대답하기 어려웠다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;앞으로 진행할 프로젝트에서 html 설계를 더욱 중요시 하기로 하였다. 학부생일때도 회로 설계 이후 직접 회로를 구성하는 일을 해서 그런지 설계하는 것을 중요시하게 여겼는데 강사님도 설계의 중요성을 말씀해주시니 내가 잘하고 있던거구나! 라는 생각이 들어 기분이 좋았던 것 같다.(분야는 다르지만!)&lt;/li&gt;
+  &lt;li&gt;시멘틱 구조를 위한 태그 공부도 열심히하자!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;html/css강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Thu, 19 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Thu, 19 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.19</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.19</guid>
+        http://localhost:4000/2021.08.19</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.19</guid>
       </item>
       
     
@@ -484,7 +483,7 @@
         <title>2021.08.18</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -528,30 +527,35 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;p&gt;✅ HTML/CSS 강의 듣기
+✅ TIL/워크시트 작성
+✅ 저번 주 과제 회고&lt;/p&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;css 강의를 들었고 배치와 관련된 속성들을 공부함. 특히 flex와 관련된 속성들을 집중적으로 공부함&lt;/li&gt;
+  &lt;li&gt;내일 있을 실시간 강의를 위해 css 공부한 것을 한번 훑어보는 시간을 가짐&lt;/li&gt;
+  &lt;li&gt;저번주 html관련 과제의 피드백에 따라 코드를 수정하고 merge까지 진행함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;실강 듣기&lt;/li&gt;
+  &lt;li&gt;TIL/워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Wed, 18 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Wed, 18 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.18</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.18</guid>
+        http://localhost:4000/2021.08.18</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.18</guid>
       </item>
       
     
@@ -560,7 +564,7 @@
         <title>2021.08.17</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -604,35 +608,42 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ HTML/CSS 강의 듣기&lt;/li&gt;
   &lt;li&gt;✅ TIL/워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;CSS 속성과 값에 대해 공부하였고 실습 파일과 함께 README.md파일에 폴더별로 요약 정리를 하였다. 나중에 실습 파일 전체를 다운 받아 전부 다 열어보지 않기 위해서!&lt;/li&gt;
+  &lt;li&gt;배민 개발 블로그에서 본 추천 책 중에 ‘http 완벽 가이드’를 읽고 있는데 오오 그런거였구나 이런 느낌으로 술술 읽히고 있어 다행이였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;매우 만족스러운 하루였던 거 같다. 내일 복습까지 한 번 하면 더 좋을 듯 하다.&lt;/li&gt;
+  &lt;li&gt;글로 정리하며 책을 읽는 것보다 n회독하며 머리 속에 먼저 익히고 정리하는 것이 더 좋을 것 같다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML/CSS 강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL/워크시트 작성&lt;/li&gt;
+  &lt;li&gt;저번 주 과제 회고&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Tue, 17 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 17 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.17</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.17</guid>
+        http://localhost:4000/2021.08.17</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.17</guid>
       </item>
       
     
@@ -641,7 +652,7 @@
         <title>2021.08.13</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -685,35 +696,34 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ 3주차 과제 회고&lt;/li&gt;
   &lt;li&gt;✅ TIL, 워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;운영체제 강의로 부족함을 느껴 결국 책을 읽었다. 확실히 더 정리가 잘 되는 느낌이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;3주차 과제에 대한 리뷰가 짧아 회고할 점이 별로 없었다. 그래도 사용자 입력을 받는 코드를 작성할 때 예시를 보여주는 코드를 넣었는데 그 점에 대해 좋은 리뷰를 받아 뿌듯하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
-        <pubDate>Fri, 13 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Fri, 13 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.13</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.13</guid>
+        http://localhost:4000/2021.08.13</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.13</guid>
       </item>
       
     
@@ -722,7 +732,7 @@
         <title>2021.08.12</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -766,23 +776,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ 운영체제 강의 듣기&lt;/li&gt;
@@ -791,12 +790,27 @@
   &lt;li&gt;✅ 4주차 과제 제출&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;스레드의 동기화 문제, 이를 위한 해결 방안인 상호 배제, 세마포에 대해 공부하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;운영체제에 대해 공부한 것들을 블로그에 작성하고 싶은데 어떻게 하면 나중에 보기도 편할지 고민하는 시간이 늘어가게 되는 것 같다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;3주차 과제 회고&lt;/li&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Thu, 12 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Thu, 12 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.12</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.12</guid>
+        http://localhost:4000/2021.08.12</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.12</guid>
       </item>
       
     
@@ -805,7 +819,7 @@
         <title>2021.08.11</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -849,35 +863,41 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ 운영체제 강의 듣기&lt;/li&gt;
   &lt;li&gt;✅ TIL, 워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;스레드에 대해 공부했다.&lt;/li&gt;
+  &lt;li&gt;4주차 과제를 제출하였다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;반효경 교수님의 운영체제 강의를 초반에 들었는데 컴퓨터 시스템 구조 파트는 굉장히 초반에 듣길 잘했다고 느꼈다. 하지만 뒤로 갈수록 하드웨어적으로 깊이 배우는 것 같아 기존의 인터넷 강의를 먼저 듣고 나서 다시 듣기로 하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;운영체제 강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;퀴즈 제작&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Wed, 11 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Wed, 11 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.11</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.11</guid>
+        http://localhost:4000/2021.08.11</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.11</guid>
       </item>
       
     
@@ -887,7 +907,7 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
 
-&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
@@ -896,29 +916,150 @@
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    console.log(ulList);
-    postlist_btn.addEventListener('click', function () {
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;📌모두가 다음과 같은 흐름으로 작업을 하지 않으며 개인의 작업 흐름을 정리해둔 글입니다.
+git/github 사용의 전체적인 흐름을 파악하고 이해해보는 것이 목표입니다&lt;/p&gt;
+&lt;/blockquote&gt;
 
-        }
-    })
-&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;📌이 글은 타인의 원격저장소와 나의 저장소(원격,로컬)를 다룹니다.
+git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;윈도우 환경에서 실습을 진행 / vim 으로 커밋 메세지를 작성 / CLI 환경만 이용&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;h2 id=&quot;-전체적인-흐름&quot;&gt;◼ 전체적인 흐름&lt;/h2&gt;
+&lt;p&gt;전체적인 흐름은 다음과 같다.&lt;/p&gt;
+
+&lt;p&gt;간단히 말해 팀장이 프로젝트를 담을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메인 원격 저장소&lt;/code&gt;를 만들고 이를 팀원들이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;각자의 원격저장소&lt;/code&gt;(서브 저장소)로 복사해서 작업한 후 팀장의 원격 저장소로 모은다고 생각하면 된다.&lt;span style=&quot;color:gray&quot;&gt; 팀장을 메인 저장소의 주인이라고 쉽게 생각하면 되고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메인 원격 저장소&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;서브 저장소&lt;/code&gt;는 쉬운 구분을 위해 이 글에서 사용하는 단어다.&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;예제와 함께 해보자&lt;/p&gt;
+
+  &lt;p&gt;혼자해보는 것이라면 두개의 github계정이 있어야 한다.&lt;/p&gt;
+
+  &lt;p&gt;또한 가상머신이나 두 대의 PC가 있어야 로그인과 로그아웃을 반복하지 않을 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-공통-&quot;&gt;◼ 공통 👨‍👧‍👦&lt;/h2&gt;
+&lt;h3 id=&quot;이슈-생성&quot;&gt;이슈 생성&lt;/h3&gt;
+
+&lt;p&gt;프로젝트를 진행하면서 발생하는 모든 작업이 이슈가 될 수 있다. (기능 개발, 버그 수정, 건의사항, 업데이트 등등) 팀장과 팀원 모두가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메인원격저장소(팀장의 github)&lt;/code&gt;에 이슈를 생성 할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/efc3940b-ed05-42fe-b635-589feae6bd8e/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-팀장-&quot;&gt;◼ 팀장 🏠&lt;/h2&gt;
+&lt;h3 id=&quot;1-프로젝트를-위한-원격-저장소-만들기&quot;&gt;1. 프로젝트를 위한 원격 저장소 만들기&lt;/h3&gt;
+
+&lt;p&gt;팀장 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;가 다음과 같이 자신의 github에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_project&lt;/code&gt;원격 저장소를 만들고 팀원에게 해당 저장소 주소를 공유한다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/e5222613-d888-4aef-83b5-2b10fd59b66b/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;앞으로 이 저장소는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메인 저장소&lt;/code&gt;가 되며 개개인이 작업한 결과물을 한 곳에 모으는 곳이 된다. 실습에서는 팀장이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt; 브랜치를 만들었고 모든 팀원은 해당 브랜치로 PR을 보내는 형태로 진행된다.&lt;/p&gt;
+&lt;h3 id=&quot;2-milestone프로젝트-생성&quot;&gt;2. milestone,프로젝트 생성&lt;/h3&gt;
+
+&lt;p&gt;팀장은  milestone과 프로젝트를 생성할 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Milestone 생성&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이슈들을 그룹화하는 Milestone을 생성하면 이슈들을 묶어 관리할 수 있다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/98abc717-cb6c-4a8e-a713-e09987532ed0/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;팀장의-프로젝트-생성&quot;&gt;팀장의 프로젝트 생성&lt;/h4&gt;
+    &lt;p&gt;실습에는 템플릿을 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Automated kanban&lt;/code&gt;을 사용했다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/79d4b98b-891a-450c-882b-54328f771b67/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트 탭에서 프로젝트가 잘 생성됐는지 확인해보면 아래와 같이 나타날 것이다. 템플릿을 적용한 형태이기 때문에 다른 템플릿을 골랐다면 다르게 나타날 것이다. issue 목록에서 issue 카드를 드래그 앤 드롭으로 To do, Done등으로 옮기며 작업 상황을 변경하면 된다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/6fa3829f-a137-4474-8d78-bba3c470206e/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-작업하기&quot;&gt;3. 작업하기&lt;/h3&gt;
+&lt;p&gt;팀장은 메인 저장소가 자신의 저장소이니 자유롭게 파일을 올리면 되는데 실습에서는 팀장이 해당 프로젝트를&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt; 브랜치에서 작업하였다.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-승인하고-merge하기&quot;&gt;4. 승인하고 merge하기&lt;/h3&gt;
+&lt;p&gt;팀장은 팀원이 보낸 PR을 확인하여 수정사항이 필요하면 코멘트를 남기거나 바로 merge를 하면 된다.&lt;/p&gt;
+&lt;h3 id=&quot;5-원격-저장소의-변경사항-로컬로-가져오기&quot;&gt;5. 원격 저장소의 변경사항 로컬로 가져오기&lt;/h3&gt;
+&lt;p&gt;팀원의 파일이 자신의 원격저장소에 merge되었음으로 자신의 로컬에서 작업한 내용을 push하기 전에 원격저장소의 변경사항을 받아오는 작업을 해야 충돌이 나지 않는다.
+&lt;a href=&quot;https://0andme.github.io/git_alone_2&quot; target=&quot;_blank&quot;&gt; 참조 링크&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; origin&lt;/span&gt;&lt;span style=&quot;color:green&quot;&gt; new&lt;/span&gt;
+&lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;  FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-팀원-&quot;&gt;◼ 팀원 🏠&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-팀장의-원격-저장소-가져오기-fork&quot;&gt;1. 팀장의 원격 저장소 가져오기 fork&lt;/h3&gt;
+
+&lt;p&gt;fork란 타겟이 되는 저장소의 사본을 가져오는 것이다. 팀장의 원격저장소에서 fork버튼을 누르고 팀원의 로컬에서 내려받으면 된다. clone과 다른 점은 fork된 저장소를 변경할 수 있다는 점이다.
+팀장 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;의 원격 저장소 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_project&lt;/code&gt;에서 오른쪽 상단의 fork버튼을 누르면 로딩 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;팀원 이름(0andme2) / 팀장의 원격저장소 이름(git_project)&lt;/code&gt; 형태로 팀원의 원격 저장소가 생긴다. 그리고 그 이름 아래에는 어디서 fork된 저장소인지도 나온다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/ddf77d21-a8bb-4731-ab1d-753a07ce3c29/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-새로운-브랜치에서-작업하기&quot;&gt;2. 새로운 브랜치에서 작업하기&lt;/h3&gt;
+&lt;p&gt;팀원은 자신의 원격 저장소가 생겼으니 이를 로컬에서 다운 받아 작업을 시작하면 된다.
+원격 저장소를 복제하고 작업한 후 결과물을 나의 원격 저장소에 push하는 것까지 아래의 흐름대로 따라 하면 된다. 간단하게 clone하기-&amp;gt; 파일 생성 등의 작업하기-&amp;gt; add하기-&amp;gt;commit하기-&amp;gt;push하기이다. &lt;a href=&quot;https://0andme.github.io/git_alone_1&quot; target=&quot;_blank&quot;&gt;참조 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;팀장은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치에서 작업을 하고 있다. 팀원도 동일한 브랜치에서 작업할 순 있지만 또다른 브랜치를 생성하고 나서 new브랜치로 머지한 후 PR을 보내는 것을 더 권장한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-pr-생성&quot;&gt;3. PR 생성&lt;/h3&gt;
+&lt;p&gt;PR 퀘스트를 보낼 때 한번 더 확인해봐야하는 것은 아래와 같이 팀원의 원격저장소의 어떤 브랜치를 팀장의 원격저장소의 어떤 브랜치로의 merge를 요청하는지이다. 실습에서 팀장의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치로 merge하기로 하였으므로 이를 확인하고 보내면 된다. &lt;span style=&quot;color:gray&quot;&gt;대부분 잘 정해져있다.&lt;/span&gt; &lt;strong&gt;이때 코멘트를 작성하는 부분에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;을 작성하면 자동으로 현재 생성된 이슈목록들이 나온다.&lt;/strong&gt; 목록 중에서 현재 merge를 요청한 작업이 어떤 이슈에 대한 작업물인지 찾아 클릭하면 된다. 실습에서는 이슈번호가 5였다. &lt;a href=&quot;https://0andme.github.io/git_alone_2&quot; target=&quot;_blank&quot;&gt; PR 생성 참조 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.vlpt.us/images/0mi/post/65b1e51d-7ecb-4937-b68a-b512f6d74250/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-메인-원격-저장소의-변경사항-받아오기&quot;&gt;4. 메인 원격 저장소의 변경사항 받아오기&lt;/h3&gt;
+
+&lt;p&gt;PR이 승인되면 팀장의 원격저장소의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;브랜치의 변경사항이 생기게 된다. 다음 작업을 위해선 팀장과 마찬가지로 팀원도 이를 자신의 로컬저장소로 가져오는 작업이 필요하다.&lt;/p&gt;
+&lt;h4 id=&quot;1upstream-추가하기&quot;&gt;1.&lt;strong&gt;upstream 추가하기&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;PR을 생성하려고 하거나 혹은 생성했는데 충돌로 인해 merge가 되지 않는다고 나온다면 팀장의 원격 저장소의 변경사항을 로컬로 가져와서 작업한 후 PR을 요청했던 나의 원격저장소로 push해주면 된다. 이때 새로운 원격 저장소를 추가해줘야 한다. 이때 나오는 개념이 upstream이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8f985894-7282-4cc6-a2a3-509112eb76b5/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;간단히 말하면 나의 로컬 저장소에서 봤을때&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fork한 남의 저장소&lt;/code&gt;가&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내 원격저장소&lt;/code&gt;가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;인 것이다.&lt;/p&gt;
+
+&lt;p&gt;실습예제 상황에서 봤을 때, 팀원&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme2&lt;/code&gt;의 로컬 저장소 입장에서 팀장&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0andme&lt;/code&gt;의 원격 저장소는&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;upstream&lt;/code&gt;, 팀원의&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;내 원격저장소&lt;/code&gt;가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;인 것이다.&lt;/p&gt;
+
+&lt;p&gt;먼저 아래의 git명령어로 현재 로컬 저장소와 연결된 원격 저장소 목록을 확인해볼 수 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git remote&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; -v &lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;upstream에 해당되는 주소가 없다면 아래의 명령어로 추가하면 된다. 이때 ‘upstream’은 별칭이기 때문에 다른 별칭을 사용해도 되지만 통상적으로 upstream이라고 이름붙인다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git remote add upstream &lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;[타인의 원격저장소 주소]&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;2-변경사항-받아오기&quot;&gt;2. 변경사항 받아오기&lt;/h4&gt;
+&lt;p&gt;팀장의 원격 저장소의 변경사항을 가져오는 것이기 때문에 origin이 아닌 upstream의 new 브랜치에서 변경사항을 가져와야 한다는 것을 알면 된다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt; upstream&lt;/span&gt;&lt;span style=&quot;color:green&quot;&gt; new&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;  FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 </description>
         
-        <pubDate>Tue, 10 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 10 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/git_withTeam</link>
-        <guid isPermaLink="true">https://0andme.github.io/git_withTeam</guid>
+        http://localhost:4000/git_withTeam</link>
+        <guid isPermaLink="true">http://localhost:4000/git_withTeam</guid>
       </item>
       
     
@@ -927,7 +1068,7 @@
         <title>2021.08.10</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -971,23 +1112,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅HTML/CSS 강의 듣기&lt;/li&gt;
@@ -995,12 +1125,29 @@
   &lt;li&gt;운영체제 강의 듣기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;html css강의에서 새롭게 알게 된 것은 가상클래스, 가상요소, 속성 선택자이다.&lt;/li&gt;
+  &lt;li&gt;실습을 진행하면서 emmet의 편리함을 느꼈는데 아직은 css에서 w와 h 정도만 익숙하게 쓸 수 있고 div&amp;gt;ul&amp;gt;li와 같은 html 요소의 emmet 사용은 손에 익숙하지 않은 것 같아 최대한 자주 사용해 볼 예정이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;저번주는 피곤하고 어지러운 날이 많아서 집중도 못 하고 헤매던 날이 많았는데 이번주는 월요일부터 컨티션이 좋았던 것 같아 금요일까지도 꾸준히 이 컨디션을 유지했으면 좋겠다!&lt;/li&gt;
+  &lt;li&gt;시간을 내 책을 읽는다는 것은 정말 어려운 일인 것 같다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;운영체제 강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Tue, 10 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 10 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.10</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.10</guid>
+        http://localhost:4000/2021.08.10</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.10</guid>
       </item>
       
     
@@ -1009,7 +1156,7 @@
         <title>2021.08.09</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1053,23 +1200,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ HTML/CSS 강의 듣기&lt;/li&gt;
@@ -1078,12 +1214,30 @@
   &lt;li&gt;❌ 운영체제 강의 듣기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;4주차 과제가 나왔다. HTML의 태그에 대한 과제였고 강의를 듣지 않고 가이드라인에 따라 과제를 작성하였다.&lt;/li&gt;
+  &lt;li&gt;과제를 마무리하고선 강의를 들으며 과제에서 잘못한 점은 없는지 재확인하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;다음주 HTML, CSS 실강에 대비해 강의를 틈틈히 들을 예정이였는데 과제로 미리 예습해 볼 수 있으니 좋았던거같다.&lt;/li&gt;
+  &lt;li&gt;HTML의 시멘틱 구조에 대해 공부할 수 있는 좋은 예제인 것 같아 그림으로 구조를 나타내보며 다시 차근차근 복습해볼 예정이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML/CSS 강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;운영체제 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Mon, 09 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Mon, 09 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.09</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.09</guid>
+        http://localhost:4000/2021.08.09</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.09</guid>
       </item>
       
     
@@ -1092,7 +1246,7 @@
         <title>2021.08.08</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1136,34 +1290,38 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;자바 스크립트 책 읽기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;구매한 자바 스크립트 책을 읽었다. 두꺼운 두께가 두렵지만 중간에 포기하지 않고 읽는 것이 목표이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;책을 구매해서 인지 몰라도 내가 지금 프론트엔드 개발자가 되기 위해 공부하고 있구나를 실감했다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
+  &lt;li&gt;운영체제 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Sun, 08 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sun, 08 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.08</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.08</guid>
+        http://localhost:4000/2021.08.08</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.08</guid>
       </item>
       
     
@@ -1172,7 +1330,7 @@
         <title>2021.08.06</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1216,34 +1374,39 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;p&gt;✅ 2주차 과제 피드백을 보고 코드 수정 후 머지 까지하기
 ✅ TIL 작성 및 커밋
 ✅ 블로그 작성&lt;/p&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;2주차 js과제 리뷰를 보고 코드를 수정하고 merge까지 한 후 팀원들과 회고하는 시간을 가졌다.&lt;/li&gt;
+  &lt;li&gt;js 강의를 들었던 부분에 대해 정리하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;회고하는 시간에 JS에 대한 부족한 지식에 대해 답답함을 느꼈다.&lt;/li&gt;
+  &lt;li&gt;강의에서는 JS는 이거고 이런거에요~이런 함수는 이런 기능을 해요~ 라는 식으로만 알려주니까 겉만 핥고 있는 것 같은 느낌이 계속 들었는데 팀원들과 이야기하면서 다시 한 번 그것을 느꼈다. 레퍼런스 책을 사야겠다는 생각을 했다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS, 알고리즘 책 서점가서 알아보고 사기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Fri, 06 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Fri, 06 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.06</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.06</guid>
+        http://localhost:4000/2021.08.06</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.06</guid>
       </item>
       
     
@@ -1252,7 +1415,7 @@
         <title>2021.08.05</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1296,23 +1459,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅운영체제 강의 듣기&lt;/li&gt;
@@ -1321,12 +1473,31 @@
   &lt;li&gt;✅ 워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로세스의 메모리 구조에 대해 공부하였다. 학부때 들은 기억이 있어 생소하지 않았고
+3년이라는 시간이 지난 것이 새삼 느껴졌다. 열심히 공부해서 꼭 취업하자&lt;/li&gt;
+  &lt;li&gt;자바스크립트 강의가 아무래도 기본만 훑고 가는 느낌이라 기본서, 교과서 같은 책이 있으면 좋을 것 같다고 느끼게 되었다. 주말에 서점에 가서 인터넷에서 추천하는 책들을 구경하고 맞는 책을 구매하려고 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;의지는 불탔으나 몸은 안 따라주던 날&lt;/li&gt;
+  &lt;li&gt;저번주 JS과제 리뷰에서 칭찬을 받은 점이 많아 뿌듯했고 이번 과제도 그러길 바랬다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2주차 과제 피드백을 보고 코드 수정 후 머지 까지하기&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;TIL 작성 및 커밋&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;블로그 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Thu, 05 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Thu, 05 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.05</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.05</guid>
+        http://localhost:4000/2021.08.05</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.05</guid>
       </item>
       
     
@@ -1335,7 +1506,7 @@
         <title>2021.08.04</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1379,23 +1550,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ 운영체제 강의 듣기&lt;/li&gt;
@@ -1404,12 +1564,29 @@
   &lt;li&gt;✅ 워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;운영체제의 스케쥴링과 인터럽트에 관해 공부하였다.&lt;/li&gt;
+  &lt;li&gt;배열 내장 함수 pop, push, shift, unshift에 관해 공부하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;실강이 없어 자기주도 학습만 하는 주라 그런지 피곤함도 더 느끼게 되고 놀고 싶은 마음도 더 커진 듯했다.공부 시작 전에 노래도 10분씩 꼭 들었는데..&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;운영체제 강의 듣기&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;TIL 작성 및 커밋&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Wed, 04 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Wed, 04 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.04</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.04</guid>
+        http://localhost:4000/2021.08.04</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.04</guid>
       </item>
       
     
@@ -1418,7 +1595,7 @@
         <title>2021.08.03</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1462,23 +1639,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ TIL 작성 및 커밋&lt;/li&gt;
@@ -1486,12 +1652,34 @@
   &lt;li&gt;✅ 3주차 과제를 위한 파이썬 강의 듣기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;파이썬으로 이메일을 발송하는 원리부터 이메일을 발송해보는 것까지 공부하였다.&lt;/li&gt;
+  &lt;li&gt;엑셀 파일에서 이름과 이메일 주소를 가져와 이메일을 발송해보는 과제도 수행하였다.&lt;/li&gt;
+  &lt;li&gt;낯선 내용들이 많아 블로그에 정리하기로 결정!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;평소보다 늦게 공부를 시작해서 비몽사몽이였던거 같다.&lt;/li&gt;
+  &lt;li&gt;오늘 목표가 파이썬 강의 다 듣고 과제까지 마무리하는 것이였는데 예상시간보다 빨리 끝나서
+여유있게 하루를 마무리해서 뿌듯했다.&lt;/li&gt;
+  &lt;li&gt;10시에 공부 일과가 끝나면 새벽 2~3시까지는 블로그나 제출해야하는 서류를 작성하거나 부족하다고 느끼는 강의를 추가적으로 들었는데 점점 잠에 드는 시간이 늦어지는 것 같아서 오늘은 일찍 자기로 하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;운영체제 강의 듣기&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;js 강의 듣기&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;TIL 작성 및 커밋&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Tue, 03 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 03 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.03</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.03</guid>
+        http://localhost:4000/2021.08.03</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.03</guid>
       </item>
       
     
@@ -1500,7 +1688,7 @@
         <title>2021.08.02</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1544,23 +1732,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;✅ TIL작성 및 커밋&lt;/li&gt;
@@ -1568,12 +1745,30 @@
   &lt;li&gt;✅ 3주차 과제를 위한 파이썬 강의 듣기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;3주차 과제로 파이썬 프로그램을 작성하는 과제가 나왔는데 온라인 강의 진도가 느려서 과제를 위한 강의를 먼저 수강하였다.&lt;/li&gt;
+  &lt;li&gt;파이썬에서 엑셀을 다루기 위한 프로그램 패키지 openpyxl을 실습했다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;무호흡으로 강의를 수강해서 그런지 정리하고 싶은 것 투성이였다.&lt;/li&gt;
+  &lt;li&gt;오전 시간에 많이 졸아서 대신 새벽공부를 더 했다. 야행성이 체질인건 알지만 아침형 인간이 되고 싶다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;TIL작성 및 커밋&lt;/li&gt;
+  &lt;li&gt;워크시트 작성&lt;/li&gt;
+  &lt;li&gt;3주차 과제를 위한 파이썬 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Mon, 02 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Mon, 02 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.02</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.02</guid>
+        http://localhost:4000/2021.08.02</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.02</guid>
       </item>
       
     
@@ -1583,7 +1778,7 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
 
-&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
@@ -1592,29 +1787,145 @@
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    console.log(ulList);
-    postlist_btn.addEventListener('click', function () {
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+&lt;hr /&gt;
 
-        }
-    })
-&lt;/script&gt;
+&lt;h2 id=&quot;예시&quot;&gt;예시&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/044f5d46-0af8-45a9-ac80-a693d95a63a4/image.png&quot; /&gt; &lt;a href=&quot;https://images.velog.io/images/0mi/post/044f5d46-0af8-45a9-ac80-a693d95a63a4/image.png&quot; target=&quot;_blank&quot;&gt;위의 이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;p&gt;위와 같은 흐름대로 진행됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-clone&quot;&gt;1. Clone&lt;/h3&gt;
+&lt;h4 id=&quot;문서-폴더의-dev폴더에-gitex-저장소-복제해오기&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;문서&lt;/code&gt; 폴더의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt;폴더에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitex&lt;/code&gt; 저장소 복제해오기&lt;/h4&gt;
+
+&lt;p&gt;1-1. 원격 저장소 gitex의 주소를 복사&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/5e8ab1ad-7798-4e8c-bcef-6546e3013758/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1-2. 문서/dev폴더에서 마우스 오른쪽 클릭 후 git bash Here 클릭&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/430a2249-a4cf-4f0f-8033-416fd2a0a645/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1-3. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone 원격저장소 gitex의 주소&lt;/code&gt; 입력&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/51a101a2-c06a-411c-b59d-f3a9cf1e4173/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1-4. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt;명령어를 이용하여 로컬 저장소 폴더로 이동&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/861b9392-90b7-4d96-a7a3-01e7e744b5ad/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-branch와-checkout&quot;&gt;2. branch와 checkout&lt;/h3&gt;
+&lt;h4 id=&quot;로컬-저장소에-새로운-branch-new-branch-생성-하고-이동하기&quot;&gt;로컬 저장소에 새로운 branch new branch &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;생성&lt;/code&gt; 하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;이동&lt;/code&gt;하기&lt;/h4&gt;
+
+&lt;p&gt;2-1. 브랜치 생성하기&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/835c9969-cd43-4127-91b1-804cccc57d8e/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2-2. 브랜치로 이동하기
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/30239dc1-39a9-470c-b44c-c5726e2c26e3/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;3-add와-commit&quot;&gt;3. add와 commit&lt;/h3&gt;
+&lt;h4 id=&quot;readmemd-수정하고-add와-commit하기&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt; 수정하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;commit&lt;/code&gt;하기&lt;/h4&gt;
+
+&lt;p&gt;3-1. 파일 수정하기&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:gray&quot;&gt;나의 경우 vim 에디터에서 가볍게 수정하였고 아래의 내용을 작성하였다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/6bdfb83f-031d-4b9b-80ee-77dbf4180314/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3-2. add 하기&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/fc8ac539-5c6e-4a48-8817-04ca0b0ef0b9/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3-3. commit하기&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/fb6612f1-96ac-449b-afc1-9a77ade483a5/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4-push&quot;&gt;4. push&lt;/h3&gt;
+&lt;h4 id=&quot;원격저장소에-로컬-브랜치-new를-push하기&quot;&gt;원격저장소에 로컬 브랜치 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new&lt;/code&gt;를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;push&lt;/code&gt;하기&lt;/h4&gt;
+
+&lt;p&gt;4-1. push하기&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/870353df-6649-4778-9ea0-cbe074d18264/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4-2. 확인해보기&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/4094aa55-ebc2-4765-89ef-107307b3c37d/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;github의 원격저장소로 가서 위의 버튼을 누르면 현재 브랜치들이 나오는데 new브랜치가 있는 것을 확인할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/dd2f1a85-0915-48d5-b7be-d3d0dd883783/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;new 브랜치를 클릭하면 로컬에서 변경한 작업이 원격 저장소에도 반영되었음을 알 수 있다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/a52e2bb8-0f1a-4fea-b017-aeffc240ed08/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;5-pr-보내기&quot;&gt;5. PR 보내기&lt;/h3&gt;
+&lt;p&gt;5-1. github에서 풀리퀘스트를 생성한다. 어떤 브랜치를 어디에 병합하는지 확인하고 적절한 멘트를 작성한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/f9505cf3-f628-4bdc-8224-7106d88eca36/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5-2. merge를 하고자 하면 아래 이미지의 버튼을 누른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/65224e53-38af-4158-a8d2-495d72c3ae4f/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;6-pull과-fetchmerge로-충돌-해결하기&quot;&gt;6. pull과 fetch+merge로 충돌 해결하기&lt;/h3&gt;
+
+&lt;p&gt;6.1 로컬에서 push할때의 충돌 해결하기
+충돌 상황을 만들기 위해 아래와 같이 github의 new 브랜치에서 README.md파일을 변경하였다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/bcc510d8-3d83-4eb1-a9b4-51969989ad9e/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;로컬 new 브랜치에서도 아래와 같이 README.md파일을 변경하고 add, commit, push를 진행하면 충돌이 나며 push가 거절된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/ce36cbc1-f817-4025-9c21-470571f5f5a8/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아래의 명령어로 원격 저장소의 브랜치 new의 변경사항을 로컬로 가져와 병합까지 진행한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/38ed34b9-c64c-4a44-8149-a796907fd997/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;다시 파일을 열어 수정한 후  add, commit, push를 차례대로 다시 하면 된다. &lt;span style=&quot;color:gray&quot;&gt;아래는 로컬에서 README.md 파일을 다시 열어 수정한 것이다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/75446f9b-88ff-477d-a19b-3211680d28de/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;github으로 돌아가 병합하여 수정한 파일이 제대로 올라갔는지 확인하면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/1145b8e5-36ea-455b-97a5-42b8cc5d39ef/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6.2 PR에서 충돌 해결하기
+충돌상황을 만들기 위해 아래와 같이 github의 main브랜치에서 README.md파일을 변경하였다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/d025b2d8-7d13-4efe-a592-f1ad818fc103/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PR을 생성하고 보니 아래와 같이 README.md 파일에서 충돌이 있음을 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/52edfe2b-c373-46ce-8cb4-c98b11b06a47/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이를 해결하기 위해 로컬에서 main의 변경사항을 가져온다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/82d5aaf6-3e52-45c3-9c0a-ea4e4ad3f428/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;충돌이 일어났던 README.md 파일을 수정하고 다시 add, commit, push를 차례대로 다시 한다. push할때 main이 아닌 PR을 보낸 브랜치로 보내야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/7534af96-9ff0-4352-a83c-a29723755589/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 </description>
         
-        <pubDate>Sun, 01 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sun, 01 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/git_alone_example</link>
-        <guid isPermaLink="true">https://0andme.github.io/git_alone_example</guid>
+        http://localhost:4000/git_alone_example</link>
+        <guid isPermaLink="true">http://localhost:4000/git_alone_example</guid>
       </item>
       
     
@@ -1623,7 +1934,7 @@
         <title>2021.08.01</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1667,35 +1978,42 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;git/github 예제 정리하기&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;git flow 복습하기&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;몸 상태가 안 좋아서 하려던 일을 마치지 못한 날이다.&lt;/li&gt;
+  &lt;li&gt;작성하고 있던 git/github 예제 부분을 마무리하는 것까지만 완성하였다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;건강이 우선&lt;/li&gt;
+  &lt;li&gt;약도 잘 챙겨먹고 잠도 잘 자야지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;TIL작성 및 커밋&lt;/li&gt;
+  &lt;li&gt;워크시트 작성&lt;/li&gt;
+  &lt;li&gt;3주차 과제를 위한 파이썬 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Sun, 01 Aug 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sun, 01 Aug 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.08.01</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.08.01</guid>
+        http://localhost:4000/2021.08.01</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.08.01</guid>
       </item>
       
     
@@ -1705,7 +2023,7 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
 
-&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
@@ -1714,29 +2032,123 @@
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    console.log(ulList);
-    postlist_btn.addEventListener('click', function () {
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+&lt;hr /&gt;
 
-        }
-    })
-&lt;/script&gt;
+&lt;h3 id=&quot;5-풀리퀘스트-prpull-request보내기&quot;&gt;5. 풀리퀘스트 PR(pull request)보내기&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/71ff8088-31da-49ab-b284-0e5a740f0179/image.png&quot; /&gt; &lt;a href=&quot;https://images.velog.io/images/0mi/post/71ff8088-31da-49ab-b284-0e5a740f0179/image.png&quot; target=&quot;_blank&quot;&gt; 이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;p&gt;원격 저장소의 하위 브랜치에서 원격 저장소의 상위 브랜치로의 merge를 요청하는 것을 풀리퀘스트 PR(pull request)이라고 한다.&lt;/p&gt;
+
+&lt;p&gt;풀리퀘스트를 생성하는 방법은 아래와 같다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.1&lt;/strong&gt;
+로컬 브랜치에서 원격 저장소에 push하고 나면 아래의 이미지와 같이 github에 자동으로 나타나는 PR 생성 창을 누르거나
+   &lt;img src=&quot;https://images.velog.io/images/0mi/post/b5ad13e0-65eb-44b4-a98d-231d1dd21227/image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1.2&lt;/strong&gt;
+Pull requests -&amp;gt; new pull request 버튼을 누른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/c61a88a3-6ebc-4e92-8d5e-fdea62846605/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt;
+하위 브랜치와 상위 브랜치가 무엇인지 한 번 더 확인하고 create pull request버튼을 누른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/5ce82172-8786-4981-a8fc-89a177a4a563/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3&lt;/strong&gt;
+적절한 PR comment를 남기고 create pull request버튼을 누르면 풀리퀘스트가 만들어진다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/252fb462-55af-444f-a153-b1230a80bfb7/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4&lt;/strong&gt;
+&lt;span style=&quot;color:gray&quot;&gt;현재 원격 저장소를 혼자 사용하고 있다고 가정하고 있으므로&lt;/span&gt; merge를 하기 위해서 아래의 사진과 같은 merge pull request버튼을 누르면 된다.&lt;span style=&quot;color:gray&quot;&gt; 팀원과 함께 개발하고 있다면 팀원의 승인 이후 merge해야할 것이다. merge는 본인이 해도 되고 팀원이 해도 된다. &lt;/span&gt;
+   &lt;img src=&quot;https://images.velog.io/images/0mi/post/e0c5a33a-23e8-476a-bf2c-a05e98f6d613/image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;6-원격-저장소의-변경-사항-내려받고-병합하기--fetch--merge-와-pull&quot;&gt;6. 원격 저장소의 변경 사항 내려받고 병합하기 : fetch + merge 와 pull&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/293f3e87-8681-47c6-bc32-2e42bc768408/image.png&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/293f3e87-8681-47c6-bc32-2e42bc768408/image.png&quot; target=&quot;_blank&quot;&gt;위의 이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;언제-변경-사항을-받아올까&quot;&gt;언제 변경 사항을 받아올까?&lt;/h4&gt;
+&lt;p&gt;원격 저장소에 변경이 있을 때 변경 사항을 받아오게 되는데 나의 경우엔 주로 &lt;span style=&quot;color:red&quot;&gt;충돌이 일어날 때&lt;/span&gt; 변경사항이 있음을 알게 된다.&lt;/p&gt;
+
+&lt;h4 id=&quot;언제-충돌이-일어날까&quot;&gt;언제 충돌이 일어날까&lt;/h4&gt;
+&lt;p&gt;로컬에서 push할 때와 풀리퀘스트 생성시 충돌을 겪을 수 있다. 만약, 혼자 사용하는 원격 저장소인데 충돌이 일어났다면 github에서 직접 파일을 변경한 이력이 있을 것이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;로컬에서 push 할 때의 충돌 확인&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/377f01e0-e1d8-4df8-899b-5f4f860181a7/image.png&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위의 이미지는 원격 저장소의 new브랜치에서 변경사항이 일어나 로컬의 new 브랜치에서 push가 거절되었을 때의 메시지이다. &lt;span style=&quot;color:gray&quot;&gt;아래의 메시지를 잘 보면 push가 거절된 힌트를 엄청 친절하게 주고 있다는 것을 알 수 있다. 거절의 이유와 해결법까지 알려주고 있다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;풀리 퀘스트에서의 충돌 확인&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/bdf95e24-decd-46b0-8f06-177ef2e9210e/image.png&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위의 사진은  원격 저장소의 new 브랜치의 내용을 원격 저장소의 main브랜치에 병합하고자 pr을 보냈을때 충돌이 일어났음을 보여준다. 풀리퀘스트 생성 전과 후에 모두 충돌이 일어났음을 github에서 미리 알려주고 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;어떻게-충돌을-해결하는가&quot;&gt;어떻게 충돌을 해결하는가&lt;/h4&gt;
+&lt;p&gt;변경사항이 있는 원격저장소의 branch를 로컬로 다운 받고 병합하여 수정 후 다시 add와 commit, push를 수행하면 된다.&lt;/p&gt;
+
+&lt;p&gt;변경사항이 있는 원격저장소의 branch를 가져오는 방법은 &lt;span style=&quot;color:red&quot;&gt;두 가지&lt;/span&gt;가 있다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetch&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merge&lt;/code&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;fetch 명령어를 입력하면 FETCH_HEAD 라는 임시 브랜치에 원격저장소의 브랜치의 변경사항이 저장된다. 현재 브랜치에 변경사항을 바로 적용하고 싶지 않을 때 사용하면 된다.&lt;/li&gt;
+      &lt;li&gt;FETCH_HEAD에 가져온 내용을 현재 브랜치와 병합하기 위해 merge명령어를 수행한다.
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git fetch origin &lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git merge&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;FETCH_HEAD&lt;/span&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pull&lt;/code&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;pull 명령어는 fetch와 merge 명령어를 수행한  것과 같다. merge를 자동으로 하고 싶을 때 사용하면 된다.
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git pull origin &lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;위의 두가지 방법 중 하나로 병합을 하고 파일을 열면 변경사항이 파일에 표시된다. 로컬저장소에서 작성한 부분과 원격 저장소에서 작성한 부분을 구분하는 부분이 아래와 같이 표시된다. 적절히 변경한 후 저장하면 된다.
+&lt;img src=&quot;https://images.velog.io/images/0mi/post/1a23f167-5d00-4458-9357-fbfb94607aa7/image.png&quot; /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;파일이 변경되었기 때문에 바로 push하는 것이 아니라  &lt;span style=&quot;color:red&quot;&gt;add와 commit을 하고 &lt;/span&gt; push하면 충돌이 해결된다. PR에서도 아래와 같이 바뀌면 충돌이 해결된 것이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/044017e4-ddf3-4869-bc94-9a7ed09853ba/image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PR에서의 충돌을 해결할 때 짚고 넘어가야 하는 것은 main브랜치의 변경 사항을 받아왔다고 해서 &lt;span style=&quot;color:red&quot;&gt;main에 다시 push하는 것이 아니라는 것&lt;/span&gt;이다. 원격 저장소의 하위 브랜치에서 main으로 병합을 요청한 상태이니 하위 브랜치로 push해야한다. &lt;span style=&quot;color:gray&quot;&gt; 풀리 퀘스트를 사용하지 않고 하위 브랜치 따위가 상위 브랜치에 뭔가를 올리려고 하지말자&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         
-        <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 01 Aug 2021 09:00:00 +0900</pubDate>
         <link>
-        https://0andme.github.io/git_alone_2</link>
-        <guid isPermaLink="true">https://0andme.github.io/git_alone_2</guid>
+        http://localhost:4000/git_alone_2</link>
+        <guid isPermaLink="true">http://localhost:4000/git_alone_2</guid>
       </item>
       
     
@@ -1746,7 +2158,7 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Git/Github &lt;/span&gt;&lt;/p&gt;
 
-&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/git_alone_1&quot;&gt; [혼자하는 Git/Github] 전체적인 흐름 알아보기 - 상&lt;/a&gt;&lt;/li&gt;
@@ -1755,29 +2167,131 @@
     &lt;li&gt;&lt;a href=&quot;/git_withTeam&quot;&gt; [함께하는 Git/Github] 팀원과 프로젝트 함께하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    console.log(ulList);
-    postlist_btn.addEventListener('click', function () {
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
+&lt;hr /&gt;
 
-        }
-    })
-&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;모두가 다음과 같은 흐름으로 작업을 하지 않으며 개인의 작업 흐름을 정리해둔 글입니다&lt;/li&gt;
+    &lt;li&gt;git/github 사용의 전체적인 흐름을 파악하고 이해해보는 것이 목표입니다&lt;/li&gt;
+    &lt;li&gt;이 글은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;나의 원격 저장소&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;로컬 저장소&lt;/code&gt;만을 다룹니다.&lt;/li&gt;
+    &lt;li&gt;git 명령어들을 이해하고 있다는 가정하에 작성한 것입니다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;윈도우 환경에서 실습을 진행&lt;/li&gt;
+    &lt;li&gt;vim 으로 커밋 메세지를 작성&lt;/li&gt;
+    &lt;li&gt;CLI 환경만 이용&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;h2 id=&quot;전체적인-흐름&quot;&gt;전체적인 흐름&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/425eb029-16f9-40ac-9e5d-d18014caa57b/image.png&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/425eb029-16f9-40ac-9e5d-d18014caa57b/image.png&quot; target=&quot;_blank&quot;&gt; 이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이 글에선 원격 저장소에 branch를 푸시하는 4번까지의 과정을 설명합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-원격-저장소를-로컬에-복제하기--clone&quot;&gt;1. 원격 저장소를 로컬에 복제하기 : clone&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/c3ecb1ff-16d4-442a-94ce-64b7d4faa297/image.png&quot; alt=&quot;clone의 흐름&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/c3ecb1ff-16d4-442a-94ce-64b7d4faa297/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;작업 초기에 가장 먼저 실행하는 작업이며 나의 경우 로컬에서의 작업 내역이 아예 없을 때 사용한다. &lt;span style=&quot;color:gray&quot;&gt;로컬에서 로컬저장소를 만들고(git init) 원격저장소와 연결하는 것(git remote add origin github주소 )보다 입력할 명령어가 적기 때문에 실수할 일이 거의 없어 주로 사용한다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;github에서 생성한 저장소를 내 컴퓨터에 가져오기 위해 저장소를 가져올 폴더에서 git bash 창을 열어 아래 명령을 입력한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git clone&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;github주소&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;위의 명령어를 치고 bash명령어를 실행했던 폴더를 가보면 원격저장소 이름과 동일한 폴더가 생성되어있을 것이다. 그 폴더 안에 .git폴더가 있다면 로컬저장소가 생긴 것이다.(숨김 해제를 해야 보인다)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;위의 내용대로 실행했다며 현재 bash창을 열었던 폴더에서 생성된 저장소 폴더로 이동하는 과정도 빼트리지 말아야한다. 생성된 저장소 안에서 git bash를 열어도 된다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;cd&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt; 생성된 로컬 저장소 주소(폴더이름) &lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-로컬-저장소에-새로운-branch-만들고-이동하기--branch와-checkout&quot;&gt;2. 로컬 저장소에 새로운 branch 만들고 이동하기 : branch와 checkout&lt;/h3&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/3f94f570-27fb-41eb-ae82-587413c051b1/image.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/3f94f570-27fb-41eb-ae82-587413c051b1/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;협업뿐 아니라 개인의 작업을 위해서도 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;가장 중요한 부분&lt;/code&gt;이라고 할 수 있다.&lt;/li&gt;
+  &lt;li&gt;새로운 영역을 만들어 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main branch&lt;/code&gt;의 영역을 건들지 않는 작업이다.
+&lt;span style=&quot;color:gray&quot;&gt;나의 경우 main branch를 최종의 최종의 최종만 담는 공간이자 나의 사수만 관리하는 공간이라고 생각하며 작업한다. 로컬 저장소에서 main branch로 checkout하는 일이 거의 없다. (혼자 작업하는 경우에도 동일)&lt;/span&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git branch&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;생성할 브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;이렇게 생성한 브랜치로 이동하기 위해서는 아래의 명령어를 사용한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git checkout&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;이동하고자 하는 브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;3-로컬-저장소에서-작업하고-커밋까지-하기--add와-commit&quot;&gt;3. 로컬 저장소에서 작업하고 커밋까지 하기 : add와 commit&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; width=&quot;500px&quot; /&gt; &lt;a href=&quot;https://images.velog.io/images/0mi/post/8fa82677-90f0-4e61-b0d5-f0db1ca7b632/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;위의 과정을 모두 진행하고 나서는 저장소안에서 자유롭게 작업을 시작하면 되고 항상 잊지말아야 할 것은 현재 브랜치가 어디인지이다.&lt;/li&gt;
+  &lt;li&gt;작업을 마치면 add와 commit을 진행한다.
+&lt;span style=&quot;color:gray&quot;&gt; add를 이용하여 스테이지에 올린 파일들을 하나의 덩어리로 묶는 것이 commit이다.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;아래의 명령어를 이용하여 덩어리로 묶고자하는 파일들을 전부 스테이지에 올린다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git add&lt;/span&gt; &lt;span style=&quot;color:blue&quot;&gt;파일명.확장자&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;add를 통해 스테이지에 올린 파일들을 한 덩어리로 묶는 commit을 실행한다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git commit&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://velog.io/@0mi/Git-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B7%9C%EC%B9%99%EA%B3%BC-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98commit-message-convention%EC%A0%95%EB%A6%AC&quot; target=&quot;_blank&quot;&gt;커밋 메시지 규칙과 커밋 컨벤션 정리&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4-원격-저장소에-branch-푸시하기--push&quot;&gt;4. 원격 저장소에 branch 푸시하기 : push&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/927255f7-60d7-4713-9536-48110179f4c9/image.png&quot; /&gt;&lt;a href=&quot;https://images.velog.io/images/0mi/post/927255f7-60d7-4713-9536-48110179f4c9/image.png&quot; target=&quot;_blank&quot;&gt;이미지 크게 보기&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;로컬 저장소에 쌓인 커밋들을 원격저장소에도 저장하기 위해 push 명령어를 사용한다.
+이때 원격 저장소의 main이 아닌 현재 로컬 브랜치와 동일한 이름의 branch에 작업을 올린다.
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git push&lt;/span&gt; origin &lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push -u&lt;/code&gt; 옵션을 사용하면 다음 push때 매번 브랜치명을 적지 않고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt;명령어만 입력해도 파일들이 자동으로 해당 branch에 저장된다. &lt;span style=&quot;color:gray&quot;&gt;그러나 나의 경우 -u옵션을 사용하고 나서도 확실히하는 차원에서 ‘git push origin 브랜치명’ 을 사용한다.&lt;/span&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;git push -u&lt;/span&gt; origin &lt;span style=&quot;color:blue&quot;&gt;브랜치명&lt;/span&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         
-        <pubDate>Sat, 31 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sat, 31 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/git_alone_1</link>
-        <guid isPermaLink="true">https://0andme.github.io/git_alone_1</guid>
+        http://localhost:4000/git_alone_1</link>
+        <guid isPermaLink="true">http://localhost:4000/git_alone_1</guid>
       </item>
       
     
@@ -1786,7 +2300,7 @@
         <title>2021.07.31</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1830,34 +2344,41 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;git/github 배운 것 정리 하기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git/github강의를 수강할 때 따라하는 것은 어렵지 않았는데 조금만 상황이 달라져도 응용하는 것이 어려워서 git과 github의 흐름을 전체적으로 훑기 위해 블로그에 공부한 내용을 정리하였다.&lt;/li&gt;
+  &lt;li&gt;블로그를 작성하면서 ‘새창에 이미지, 페이지 띄우기’와 ‘글자색 바꾸기’를 하고 싶어 사용법을 찾아보며 적용해봤다. (span와 속성 style=”color:red” /  a 태그와 속성  target=’_blank’)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git/github의 전체적인 흐름을 정리하고나니  git/github사용에 자신감이 조금 생긴 것 같다. 
+기본적인 명령어들만 정리한 것이라서 다양한 명령어들과 옵션에 대해서도 빨리 공부하고싶다.&lt;/li&gt;
+  &lt;li&gt;벨로그에서 토글 기능도 안되고 이미지 사이즈 조절도 안되는 듯 해서 아쉬웠다. 이미지 조절은 왜 미리보기에서만 적용되는 것일까&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git/github 예제 정리하기&lt;/li&gt;
+  &lt;li&gt;git flow 복습하기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Sat, 31 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sat, 31 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.31</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.31</guid>
+        http://localhost:4000/2021.07.31</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.31</guid>
       </item>
       
     
@@ -1866,7 +2387,7 @@
         <title>2021.07.30</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1910,35 +2431,39 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;1주차 과제 회고&lt;/li&gt;
   &lt;li&gt;git/github 강의 복습하기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;1주차 과제에 대해 팀원들과 회고해보는 시간을 가졌다. 개개인의 역량이 다르니 다양한 코드들도 볼 수 있었다.&lt;/li&gt;
+  &lt;li&gt;git/github를 다시 듣고 천천히 실습을 다시 했다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;회고를 하며 얻은 수확으로는 favicon generator 사이트이다.&lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;»사이트이동&lt;/a&gt; png 파일을 올리면 알아서 모든 디바이스를 위한 png파일과 코드까지 상세히 알려준다. 정말 유용하고 무조건 이용할 사이트!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git 정리 하기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Fri, 30 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Fri, 30 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.30</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.30</guid>
+        http://localhost:4000/2021.07.30</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.30</guid>
       </item>
       
     
@@ -1947,7 +2472,7 @@
         <title>2021.07.29</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -1991,30 +2516,43 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;컴퓨터 공학 듣기&lt;/li&gt;
+  &lt;li&gt;2주차 과제 하기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;커널과 시스템콜, 쉘, api에 대해 배웠다. 커널모드와 사용자모드에 대해서도 배웠고 블로그에 짧게 정리도 하였다.&lt;/li&gt;
+  &lt;li&gt;자바스크립트로 작은 프로그램 제작하는 과제를 했다.&lt;/li&gt;
+  &lt;li&gt;자바스크립트와 운영체제의 배운 부분을 이용해 퀴즈를 제작했다.&lt;/li&gt;
+  &lt;li&gt;워크 시트를 작성했다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;강의를 많이 듣는 것보다는 조금 늦더라도 블로그에 정리해가며 공부 시작 전에 빠르게 복습하고 새로운 강의를 시작하는게 더 도움이 되는 것 같다.&lt;/li&gt;
+  &lt;li&gt;과제는 어렵지 않았는데 github에서 변경사항을 가져오는게 왜이렇게 어렵고 헷갈리는지 모르겠다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;1주차 과제 회고&lt;/li&gt;
+  &lt;li&gt;git/github 강의 복습하기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Thu, 29 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Thu, 29 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.29</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.29</guid>
+        http://localhost:4000/2021.07.29</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.29</guid>
       </item>
       
     
@@ -2023,7 +2561,7 @@
         <title>2021.07.28</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2067,35 +2605,39 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;실시간 강의 듣고 복습하기&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;퀴즈 만들기&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git/github 강의를 들었다. 가장 어려웠다고 느꼈기에 딱 배운 날 블로그에 적어둬야할 것 같은데 하필이면 과제가 두개나 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;이번 주 과제도 하려 했는데 결국 내일로 미루게 되었다. 미리미리 하고 싶었는데.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;컴퓨터 공학 듣기&lt;/li&gt;
+  &lt;li&gt;2주차 과제 하기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Wed, 28 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Wed, 28 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.28</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.28</guid>
+        http://localhost:4000/2021.07.28</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.28</guid>
       </item>
       
     
@@ -2104,7 +2646,7 @@
         <title>2021.07.27</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2148,23 +2690,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;JS강의 듣기&lt;/li&gt;
@@ -2178,12 +2709,22 @@
 &lt;a href=&quot;https://velog.io/@0mi/series/JavaScript&quot;&gt;JS 시리즈 링크&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;어제와 동일한 하루지만 많이 피곤해서 오전엔 집중이 잘 안됐던게 아쉽다. 공부한 것에 대한 보상심리로 핸드폰을 놓을 수가 없었다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;실시간 강의 듣고 복습하기&lt;/li&gt;
+  &lt;li&gt;퀴즈 만들기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Tue, 27 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 27 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.27</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.27</guid>
+        http://localhost:4000/2021.07.27</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.27</guid>
       </item>
       
     
@@ -2192,7 +2733,7 @@
         <title>2021.07.26</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2236,30 +2777,45 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL,워크시트 작성&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;road.sh의 글 하나 읽고 정리해보기&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS 기초 문법들을 엄청 알게 되었다. 파이썬을 공부하며 배웠던 문법들과도 비슷했지만 뒤죽박죽 섞여서 어렵게 느껴지는 듯했다. 자주 문법들에 대해 열어볼 듯해서 github에 실습파일들도 매번 푸시했다.&lt;/li&gt;
+  &lt;li&gt;이전에 수강했던 JS부분을 정리해 블로그에 작성하였다. &lt;a href=&quot;https://velog.io/@0mi/series/JavaScript&quot;&gt;JS 시리즈&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;워크시트에 매번 3문제씩 퀴즈를 만드는게 부담이였는데 주당 3문제로 바뀌었지만 그래도 문법 파트들을 복습할 겸 한 문제 정도는 만들어보려고 한다. 복습만이 살 길.&lt;/li&gt;
+  &lt;li&gt;codesandbox에서 github을 연동해놓으니 바로 바로 커밋메시지를 작성하고 push도 한번에 되니 정말 편했다.&lt;/li&gt;
+  &lt;li&gt;블로그에 공부한 내용을 요약하는 것이 정말 오래 걸리지만 복습하기는 정말 좋은 듯 하다. 물론 새벽이 넘어가는 시간까지 노트북을 붙잡고 있는게 조금 힘들긴 하지만.&lt;/li&gt;
+  &lt;li&gt;오랜 시간 강의만 듣다보면 핸드폰을 보고 싶은 욕구가 너무 커져서 중간 중간 10분동안은 노래를 듣는 시간으로 정하고 노래를 들었다. 능률이 올랐을까?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS강의 듣기&lt;/li&gt;
+  &lt;li&gt;블로그 작성&lt;/li&gt;
+  &lt;li&gt;TIL,워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Mon, 26 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Mon, 26 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.26</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.26</guid>
+        http://localhost:4000/2021.07.26</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.26</guid>
       </item>
       
     
@@ -2268,7 +2824,7 @@
         <title>2021.07.25</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2312,23 +2868,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;github관리&lt;/li&gt;
@@ -2336,12 +2881,30 @@
   &lt;li&gt;워크시트 작성&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;금요일 워크시트를 작성하고 운영체제에 대한 퀴즈도 3문제 작성하였다.&lt;/li&gt;
+  &lt;li&gt;블로그에 웹 동작원리에 대해 적어보기 위해 공부를 하는 시간을 가졌다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;공부한 것을 가볍게 정리하고 싶은데 쉽지 않다.&lt;/li&gt;
+  &lt;li&gt;체력의 중요성을 또 한 번 느낀 날이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;JS강의 듣기&lt;/li&gt;
+  &lt;li&gt;TIL,워크시트 작성&lt;/li&gt;
+  &lt;li&gt;road.sh의 글 하나 읽고 정리해보기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Sun, 25 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sun, 25 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.25</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.25</guid>
+        http://localhost:4000/2021.07.25</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.25</guid>
       </item>
       
     
@@ -2350,7 +2913,7 @@
         <title>2021.07.24</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2394,23 +2957,12 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;del&gt;js 강의 이어서 수강&lt;/del&gt;&lt;/li&gt;
@@ -2425,14 +2977,24 @@
   &lt;li&gt;깊이 배운 것이 아니기에 블로그에 적고자 하는 부분이 오류가 없는지 확인하는 작업을 했다.
     &lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
   &lt;/li&gt;
+  &lt;li&gt;강의 수강은 평일에 집에서 하는 것이 집중도 잘 되는 듯하다.&lt;/li&gt;
+  &lt;li&gt;햇빛도 쐴 겸 바깥 음식도 먹을겸 카페에서 공부를 하였는데 거치대며 키보드며 싸들고 공부하러 가는 길이 쉽진 않다. 코로나도 그렇고!!!&lt;/li&gt;
+  &lt;li&gt;주말엔 일주일동안 공부한 것을 정리하며 보내는 것이 좋을 듯 했다. 음악도 듣고.&lt;/li&gt;
+  &lt;li&gt;매일 뭔가를 남기고 작성한다는게 정말 어렵다.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;github관리&lt;/li&gt;
+  &lt;li&gt;TIL, 블로그 작성&lt;/li&gt;
+  &lt;li&gt;워크시트 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Sat, 24 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Sat, 24 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.24</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.24</guid>
+        http://localhost:4000/2021.07.24</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.24</guid>
       </item>
       
     
@@ -2441,7 +3003,7 @@
         <title>2021.07.23</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2485,30 +3047,43 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;오늘 수강이 부족했던 &lt;del&gt;JS와&lt;/del&gt; 컴퓨터공학 파트 인강 듣기&lt;/li&gt;
+  &lt;li&gt;커밋 메시지에 대한 글 작성해보기&lt;/li&gt;
+  &lt;li&gt;TIL작성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;운영체제 강의를 들었다. &lt;del&gt;학부때 컴구와 운영체제 둘 다 들었고 성적도 좋았는데 시간이 정말 많이 지난건지&lt;/del&gt; 배운 기억이 있지만 알맹이는 빼고 기억하고 있는 듯 했다. 그래서 CS 강의를 들으며 빠르게 노션에 정리하고 그것을 블로그에 재정리하는 식으로 공부해볼 생각이다. 오늘 들은 것을 정리한 것 &lt;a href=&quot;https://velog.io/@0mi/CS-운영체제&quot;&gt;운영체제&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;커밋 메시지와 컨벤션에 대해 여러 문서를 찾아보며 내가 사용할 메시지 위주로 따로 정리도 했다. &lt;a href=&quot;https://velog.io/@0mi/Git-커밋-메시지-규칙과-커밋-컨벤션commit-message-convention정리&quot;&gt;커밋 메시지와 컨벤션&lt;/a&gt;
+    &lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;github에서 폴더를 여러 개 만들고 그 안에 또 폴더들이 여러 개 있는 저장소를 만들었는데 원격 저장소에 변경이 있으니 그것을 fetch나 pull로 가져온 후 add commit해야 했다. 정말 쉬운건데 나는 왜 1시간 이상을 헤맸을까. 피곤해서인 것 같아 커피도 다시 타왔다.&lt;/li&gt;
+  &lt;li&gt;위의 문제로 강의를 듣는 시간이 더 줄어들었다. 어제도 강의 수강 시간이 부족했는데..주말에도 평일처럼 공부해야지를 다짐.&lt;/li&gt;
+  &lt;li&gt;조바심을 내게 되는 이유 중 하나는 다른 수강생 분들과의 팀프로젝트에서 뚝딱뚝딱 잘하는 사람이 되고 싶어서이다. 부족하다고 느끼는 것은 좋은 원동력이 되겠지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;js 강의 이어서 수강&lt;/li&gt;
+  &lt;li&gt;CS 강의 이어서 수강&lt;/li&gt;
+  &lt;li&gt;github관리&lt;/li&gt;
+  &lt;li&gt;TIL, 블로그 작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Fri, 23 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Fri, 23 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.23</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.23</guid>
+        http://localhost:4000/2021.07.23</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.23</guid>
       </item>
       
     
@@ -2517,7 +3092,7 @@
         <title>2021.07.22</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2561,30 +3136,39 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;1주차 과제하기&lt;/li&gt;
+  &lt;li&gt;4일간의 워크시트 작성하기&lt;/li&gt;
+  &lt;li&gt;JS 기초 강의 이어서 수강하기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Github과제 수행. 역시 강의 듣고 실습만 해본다고 해서 다 이해한 것은 아니라는 것을 다시 느꼈다. 응용이 나오니 잠시 멍해졌지만 설계 단계부터 차근차근 해나가니 어렵지 않게 완성 &lt;a href=&quot;https://velog.io/@0mi/HTML-CSS-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-github%EC%9D%98-header-%EC%A0%9C%EC%9E%91&quot;&gt;HTML &amp;amp; CSS 이용하여 github의 header 제작해보기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;JS 의 화살표 함수와 객체에 대해 배웠다. 객체 선언시의 문법이 아직은 익숙하지 않아 그 부분을 문제로 만들어보았다. &lt;a href=&quot;https://www.notion.so/2021-07-22-4a124540166b4cedbf1b615c604ef454#c4589d52d74b4820b06e1cd9944c2683&quot;&gt;문제 링크-노션&lt;/a&gt;
+    &lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;과제와 TIL을 작성하고 Github관리를 하느라 강의 수강을 조금 밖에 하지 못했다. 그래도 git CLI은 손에 익어서 다행!&lt;/li&gt;
+  &lt;li&gt;과제를 하다 img폴더를 커밋하는데 메시지를 어떻게 써야할지 몰라 docs: 로 작성하였다. 내일은 정말 커밋 메시지에 대해 자세히 찾아봐야할 것 같다.
+    &lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;오늘 수강이 부족했던 JS와 컴퓨터공학 파트 인강 듣기&lt;/li&gt;
+  &lt;li&gt;커밋 메시지에 대한 글 작성해보기&lt;/li&gt;
+  &lt;li&gt;TIL작성&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Thu, 22 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Thu, 22 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.22</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.22</guid>
+        http://localhost:4000/2021.07.22</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.22</guid>
       </item>
       
     
@@ -2593,7 +3177,7 @@
         <title>2021.07.21</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2637,30 +3221,43 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;지킬 다시 도전&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;git 실시간 강의 듣기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;실시간으로 강사님과 git 실습을 하였다.&lt;/li&gt;
+  &lt;li&gt;기존에는 로컬저장소 생성과 초기 파일 push까진는 CLI를 사용하고 그 이후부터는 소스트리를 사용했는데 조금 하드하게 배울 필요성에 대해 말씀해주셔서 기존의 소스트리는 과감히 삭제하였다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;vim&lt;/strong&gt;을 사용하여 commit 메시지를 작성하는 법을 알려주셨다! 강의를 들으며 가장 헉!대박이야! 했던 부분&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;git 커밋 메시지 컨벤션&lt;/strong&gt;에 대해서도 배웠고 이는 더 블로그에 정리해두고 찾아볼 예정이다.&lt;/li&gt;
+  &lt;li&gt;함께 강의를 수강한 분과 리뷰와 리퀘스트를 진행했는데 나의 실수로 팀원분에게 리뷰전달이 늦어졌다! 리뷰가 안 오셨다고 해서 끙끙댔는데 알고보니 중간에 과정을 한 개 뛰어넘었던 것. 하지만 다신 같은 실수를 하지 않게 만들어줄 좋은 경험인 것은 확실하다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+
+&lt;p&gt;얻어간 것들이 많은 날들이였다. 조금 더 실무에 가까운 내용들을 알게 되었기 때문이 아닐지!
+사실 그만큼 다시 정리하고 내 것으로 만드는 시간이 필요하다는 의미이기에 오늘도 내 손목은 고통받는 중이다. &lt;del&gt;이젠 손목보호대를 껴도 아픈 지경&lt;/del&gt;&lt;/p&gt;
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;1주차 과제가 나오는 날&lt;/li&gt;
+  &lt;li&gt;4일간의 워크시트 작성하기&lt;/li&gt;
+  &lt;li&gt;JS 기초 강의 이어서 수강하기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Wed, 21 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Wed, 21 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.21</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.21</guid>
+        http://localhost:4000/2021.07.21</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.21</guid>
       </item>
       
     
@@ -2669,7 +3266,7 @@
         <title>2021.07.20</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2713,30 +3310,55 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
 
+&lt;!-- excerpt-start --&gt;
+
+&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML 과 CSS 기초 강의 듣기&lt;/li&gt;
+  &lt;li&gt;지킬이용해서 블로그 제작해보기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;HTML과 CSS 기초 강의를 들었다. 이미 들은 적 있는 강의라 기억이 가물 가물한 부분만 다시 들었다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;HTML과 CSS강의 기초에서 가장 중요한 것은 &lt;strong&gt;html에서 꾸미려고 하지 말고 뼈대만 세울 것&lt;/strong&gt; 인 것 같다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;JS 기초강의를 들었다. codesandbox라는 온라인 코드 에디터를 처음 사용해봤다. 저장만 해도 결과가 바로 옆에 뜬다는 점이 매우 좋았다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;C와 C++을 사용해왔기에 기초 문법이 생소하지 않았다. 새롭게 알게된 것은 &lt;strong&gt;let&lt;/strong&gt;이라는 선언 타입, &lt;strong&gt;===&lt;/strong&gt; 을 사용하는 것이 더 정확하게 두 변수를 비교한다는 것, &lt;strong&gt;function&lt;/strong&gt;으로 함수를 생성한다는 것!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;3개의 문제도 출제해봤다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/9a011e53-956e-4a3f-abc2-41921d4208bf/bandicam%202021-07-22%2021-02-57-742.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/b3692382-8861-443d-b5d5-fefee431dc22/bandicam%202021-07-22%2021-03-07-330.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/c3bcb091-9367-4ad7-b825-13d51ef1fb0e/bandicam%202021-07-22%2021-03-29-267.jpg&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;https://images.velog.io/images/0mi/post/667e3b70-1d8c-405e-83c7-5554e16ede8e/bandicam%202021-07-22%2021-03-39-437.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;지킬 블로그를 생성하는 것까지는 했는데 테마를 사용하자니 UTF-8오류가 해결되지 않았다. 구글로 얻은 3가지 방법을 모두 써보았지만 실패. 파일 변화를 준게 없는데 왜 인코딩실패가 일어났을지. 조금 더 공부하고 나서 도전 해볼 거리가 생긴 것 같다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+
+&lt;p&gt;계획 한 일을 모두 해냈고 계획에 없던 JS도 강의를 듣게 되어 기쁘다.
+하지만 자려고 누웠다가도 지킬 오류가 눈앞에 아른거려서 문제 해결을 위해 끙끙대다 해결 못 한 것이 정말 너무 아쉽다.&lt;/p&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;git 강의 듣기&lt;/li&gt;
+  &lt;li&gt;한번만 더 지킬 도전.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Tue, 20 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Tue, 20 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.20</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.20</guid>
+        http://localhost:4000/2021.07.20</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.20</guid>
       </item>
       
     
@@ -2745,7 +3367,7 @@
         <title>2021.07.19</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 닫기&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
@@ -2789,34 +3411,38 @@
     
 
 &lt;/ul&gt;
-&lt;script&gt;
-    const postlist_btn = document.querySelector(&quot;.postListBtn&quot;);
-    const ulList = document.querySelector(&quot;ul.table-of-contents-list&quot;);
-    postlist_btn.addEventListener('click', function () {
-
-        if (ulList.style.display === &quot;none&quot;) {
-            ulList.style.display = &quot;block&quot;;
-            postlist_btn.textContent=&quot;글 목록 닫기&quot;;
-        } else {
-            ulList.style.display = &quot;none&quot;;
-            postlist_btn.textContent=&quot;글 목록 펼치기&quot;;
-
-        }
-    })
-&lt;/script&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
 &lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
 &lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;프로그래밍 기초 강의 듣기&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;쿠키와 세션, 캐시의 차이 점에 대해 공부하였다. 로그인 인증방식에 대한 예제로 배우니 셋의 차이를 알기 쉬웠다. 공부하면서 정보처리기사 공부를 하며 만났던 개념들이 나오니 조금 반가웠다.&lt;/li&gt;
+  &lt;li&gt;웹에서 사용되는 이미지들에 대해 배웠다. WEBP에 대한 설명을 들으면서 점점 브라우저들이 업데이트되어 WEBP가 호환되기 시작하면 확장자가 한개만 있으니 개발할 때 귀찮은 일이 줄 것 같아 좋아보였다.
+    &lt;h4 id=&quot;오늘을-돌아보며&quot;&gt;오늘을 돌아보며&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;TIL의 첫 시작이다 보니 실 공부시간보단 셋팅 시간이 훨씬 더 걸린 것 같아 아쉽다. 하지만 웹처럼 초반에 기반을 다져야 뭘 꾸미고 움직이게 할 것 아닌가. 앞으로의 영양가 있는 블로그를 다짐하며.&lt;/li&gt;
+  &lt;li&gt;배민 채용설명회에서 github에 커밋찍는 것보단 한 명의 사용자만 있더라도 그 사용자를 위한 서비스를 개발해보라고 하신게 기억에 남았기에 커밋찍는것에는 크게 스트레스 받진 않으려고 한다. &lt;del&gt;사실 완전 쌩초보인 나는 공부하기도 조금 벅찬 감이 있다.&lt;/del&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;내일-할-일&quot;&gt;내일 할 일&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML css 강의 듣기&lt;/li&gt;
+  &lt;li&gt;github 블로그 지킬로 제작해보기&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         
-        <pubDate>Mon, 19 Jul 2021 00:00:01 +0000</pubDate>
+        <pubDate>Mon, 19 Jul 2021 09:00:01 +0900</pubDate>
         <link>
-        https://0andme.github.io/2021.07.19</link>
-        <guid isPermaLink="true">https://0andme.github.io/2021.07.19</guid>
+        http://localhost:4000/2021.07.19</link>
+        <guid isPermaLink="true">http://localhost:4000/2021.07.19</guid>
       </item>
       
     
