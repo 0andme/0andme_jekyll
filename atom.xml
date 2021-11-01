@@ -158,8 +158,8 @@ Post.html 파일을 생성하고 해당 내용을 추가했다.
 &lt;p&gt;필요한 태그들을 만들고 새로운 css를 만들고  추가했다.
 다 만들고 나니 이전 포스트와 다음 포스트의 기준이 태그별이 아닌 전체 포스트 기준이였다는 것을 깨달았다.&lt;/p&gt;
 
-&lt;p&gt;-지킬변수에 대한 사이트 https://jekyllrb-ko.github.io/docs/variables/&lt;/p&gt;
 &lt;ul&gt;
+  &lt;li&gt;지킬변수에 대한 사이트 https://jekyllrb-ko.github.io/docs/variables/&lt;/li&gt;
   &lt;li&gt;로직 참조한 사이트 https://talk.jekyllrb.com/t/how-to-link-to-next-and-previous-posts-for-same-blog-category/629&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -171,12 +171,13 @@ Post.html 파일을 생성하고 해당 내용을 추가했다.
 부모 .post-pagenav 의 높이가 0으로 잡힌다.
 자식의 높이가 있음에도 0이여서 포지션 속성 대신 float을 사용하고 부모에 해당되는 부분에 overfolw:hidden 속성을 줬다.&lt;/p&gt;
 
-&lt;dl&gt;
-  &lt;dt&gt;다음에 넣고자 하는 것&lt;/dt&gt;
-  &lt;dd&gt;포스트의 다크모드&lt;/dd&gt;
-  &lt;dd&gt;포스트의 맨 위로 이동 맨 아래로 이동하는 버튼&lt;/dd&gt;
-  &lt;dd&gt;글의 특정 부분으로 이동하는 네비게이션&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;p&gt;다음에 넣고자 하는 것&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;포스트의 다크모드&lt;/li&gt;
+  &lt;li&gt;포스트의 맨 위로 이동 맨 아래로 이동하는 버튼&lt;/li&gt;
+  &lt;li&gt;글의 특정 부분으로 이동하는 네비게이션&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         
