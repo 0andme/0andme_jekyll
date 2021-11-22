@@ -61,17 +61,7 @@
     <meta property="og:site_name" content="0andme의 개발 블로그" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="리액트 입문 - 시작하기" />
-    <meta property="og:description" content="React
-
-  글 목록 펼치기
-
-
-  리액트 입문 - 시작하기
-
-
-
-
-" />
+    <meta property="og:description" content="React 글 목록 펼치기 리액트 입문 - 시작하기 실습 환경 만들기 1. 설치 npm i -g create-react-app 위의 명령어를 입력하여 react 프로젝트를 만들기 위한 기본 셋팅을 시작한다. vue를 공부할 때는 필요한 패키지들을 하나 하나 다운 받고 설정을 했는데 이번에는 아래 명령어를 사용하여 react 사용을 위한 기본 셋팅이 전부 되어있는 프로젝트를" />
     <meta property="og:url" content="http://localhost:4000/react_start_1" />
     <meta property="og:image" content="http://localhost:4000/" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -81,17 +71,7 @@
     <meta property="article:tag" content="React" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="리액트 입문 - 시작하기" />
-    <meta name="twitter:description" content="React
-
-  글 목록 펼치기
-
-
-  리액트 입문 - 시작하기
-
-
-
-
-" />
+    <meta name="twitter:description" content="React 글 목록 펼치기 리액트 입문 - 시작하기 실습 환경 만들기 1. 설치 npm i -g create-react-app 위의 명령어를 입력하여 react 프로젝트를 만들기 위한 기본 셋팅을 시작한다. vue를 공부할 때는 필요한 패키지들을 하나 하나 다운 받고 설정을 했는데 이번에는 아래 명령어를 사용하여 react 사용을 위한 기본 셋팅이 전부 되어있는 프로젝트를" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/" />
     <meta name="twitter:label1" content="Written by" />
@@ -123,17 +103,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/react_start_1"
     },
-    "description": "React
-
-  글 목록 펼치기
-
-
-  리액트 입문 - 시작하기
-
-
-
-
-"
+    "description": "React 글 목록 펼치기 리액트 입문 - 시작하기 실습 환경 만들기 1. 설치 npm i -g create-react-app 위의 명령어를 입력하여 react 프로젝트를 만들기 위한 기본 셋팅을 시작한다. vue를 공부할 때는 필요한 패키지들을 하나 하나 다운 받고 설정을 했는데 이번에는 아래 명령어를 사용하여 react 사용을 위한 기본 셋팅이 전부 되어있는 프로젝트를"
 }
     </script>
 
@@ -256,6 +226,53 @@ into the {body} of the default.hbs template -->
 <script src="/assets/js/postListBtn.js"></script>
 
 <hr />
+
+<!-- excerpt-start -->
+
+<h3 id="실습-환경-만들기">실습 환경 만들기</h3>
+
+<p><br /></p>
+
+<p><strong>1. 설치</strong></p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">npm</span> <span class="nx">i</span> <span class="o">-</span><span class="nx">g</span> <span class="nx">create</span><span class="o">-</span><span class="nx">react</span><span class="o">-</span><span class="nx">app</span>
+</code></pre></div></div>
+
+<p>위의 명령어를 입력하여
+react 프로젝트를 만들기 위한 기본 셋팅을 시작한다.
+<span style="color:gray">vue를 공부할 때는 필요한 패키지들을 하나 하나 다운 받고 설정을 했는데 이번에는 아래 명령어를 사용하여 react 사용을 위한 기본 셋팅이 전부 되어있는 프로젝트를 만들어보았다.</span></p>
+
+<p><strong>2. 프로젝트 만들기</strong></p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">npx</span> <span class="nx">create</span><span class="o">-</span><span class="nx">react</span><span class="o">-</span><span class="nx">app</span> <span class="nx">프로젝트명</span>
+
+<span class="nx">npx</span> <span class="nx">create</span><span class="o">-</span><span class="nx">react</span><span class="o">-</span><span class="nx">app</span> <span class="nx">프로젝트명</span> <span class="o">--</span><span class="nx">use</span><span class="o">-</span><span class="nx">npm</span>
+</code></pre></div></div>
+
+<p>위의 명령어 중 하나를 터미널에 입력한다. 명령어를 입력하면 명령어를 수행한 폴더 바로 아래에 <code class="language-plaintext highlighter-rouge">프로젝트명</code>으로 폴더가 하나 생긴다. 아래와 같은 파일들이 들어있으면 된다.</p>
+
+<p><span style="color:gray"> 아래는 <code class="language-plaintext highlighter-rouge">211118</code> 이라는 프로젝트를 생성했을 때 최초 생성된 폴더의 구조이다</span>
+<img src="/assets/built/postImages/react/react최초생성폴더.png" alt="프로젝트 생성시 최초 폴더 구조" /></p>
+
+<p><strong>3. yarn 설치</strong></p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">npm</span> <span class="nx">i</span> <span class="o">-</span><span class="nx">g</span> <span class="nx">yarn</span>
+</code></pre></div></div>
+
+<p>필수는 아니지만 <code class="language-plaintext highlighter-rouge">yarn</code> 도 글로벌로 설치하였다</p>
+
+<p><strong>4. 실습 파일 저장 폴더 만들기</strong></p>
+
+<p>Src 폴더 아래 <code class="language-plaintext highlighter-rouge">component</code> 폴더를 만든 후 그 아래에 파일이나 폴더를 넣어 실습을 진행하였다. <span style="color:gray"> node버전은 14 버전</span></p>
+
+<p><strong>5. 서버 열기</strong></p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">npm</span> <span class="nx">start</span>
+<span class="nx">yarn</span> <span class="nx">start</span>
+</code></pre></div></div>
+
+<p>위의 명령어를 중 하나를 입력해 로컬 서버를 연다.프로젝트 생성 후 파일 변경 없이 그대로 서버를 열었다면 아래와 같은 서버가 열린다. 이제 프로젝트를 시작하면 된다!
+<img src="/assets/built/postImages/react/react최초서버.png" alt="react 프로제긑 서버 최초 실행시 서버이미지" /></p>
 
                 </div>
             </section>
