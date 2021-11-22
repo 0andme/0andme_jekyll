@@ -46,7 +46,7 @@ react 프로젝트를 만들기 위한 기본 셋팅을 시작한다.
 &lt;p&gt;위의 명령어 중 하나를 터미널에 입력한다. 명령어를 입력하면 명령어를 수행한 폴더 바로 아래에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;프로젝트명&lt;/code&gt;으로 폴더가 하나 생긴다. 아래와 같은 파일들이 들어있으면 된다.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:gray&quot;&gt; 아래는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;211118&lt;/code&gt; 이라는 프로젝트를 생성했을 때 최초 생성된 폴더의 구조이다&lt;/span&gt;
-&lt;img src=&quot;/assets/built/postImages/react/react최초생성폴더.png&quot; alt=&quot;프로젝트 생성시 최초 폴더 구조&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/built/images/react/react최초생성폴더.png&quot; alt=&quot;프로젝트 생성시 최초 폴더 구조&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;3. yarn 설치&lt;/strong&gt;&lt;/p&gt;
 
@@ -65,8 +65,8 @@ react 프로젝트를 만들기 위한 기본 셋팅을 시작한다.
 &lt;span class=&quot;nx&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;위의 명령어를 중 하나를 입력해 로컬 서버를 연다.프로젝트 생성 후 파일 변경 없이 그대로 서버를 열었다면 아래와 같은 서버가 열린다. 이제 프로젝트를 시작하면 된다!
-&lt;img src=&quot;/assets/built/postImages/react/react최초서버.png&quot; alt=&quot;react 프로제긑 서버 최초 실행시 서버이미지&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;위의 명령어를 중 하나를 입력해 로컬 서버를 연다. 프로젝트 생성 후 파일 변경 없이 그대로 서버를 열었다면 아래와 같은 서버가 열린다. 이제 프로젝트를 시작하면 된다!
+&lt;img src=&quot;/assets/built/images/react/react최초서버.png&quot; alt=&quot;react 프로제긑 서버 최초 실행시 서버이미지&quot; /&gt;&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 18 Nov 2021 09:00:01 +0900</pubDate>
