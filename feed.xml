@@ -1,9 +1,318 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-23T01:17:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">0andme의 개발 블로그</title><subtitle>LV.99 개발자 되기</subtitle><entry><title type="html">리액트 입문 - 시작하기</title><link href="http://localhost:4000/react_start_1" rel="alternate" type="text/html" title="리액트 입문 - 시작하기" /><published>2021-11-18T09:00:01+09:00</published><updated>2021-11-18T09:00:01+09:00</updated><id>http://localhost:4000/react_start_1</id><content type="html" xml:base="http://localhost:4000/react_start_1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;React&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-23T19:48:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">0andme의 개발 블로그</title><subtitle>LV.99 개발자 되기</subtitle><entry><title type="html">리액트 입문 - 실습(1)</title><link href="http://localhost:4000/react_practice_1" rel="alternate" type="text/html" title="리액트 입문 - 실습(1)" /><published>2021-11-18T09:00:02+09:00</published><updated>2021-11-18T09:00:02+09:00</updated><id>http://localhost:4000/react_practice_1</id><content type="html" xml:base="http://localhost:4000/react_practice_1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;React&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;postListBtn&quot; style=&quot;cursor: pointer; margin-top: -30px&quot;&gt;
   글 목록 펼치기
 &lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;/react_start_1&quot;&gt;리액트 입문 - 시작하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/react_start&quot;&gt;리액트 입문 - 실습 환경 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/react_practice_1&quot;&gt;리액트 입문 - 실습(1)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;h3 id=&quot;실습-내용&quot;&gt;실습 내용&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;#실습-1---화면에-글씨-출력하기&quot;&gt;실습 1 - 화면에 글씨 출력하기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#실습-2---요소에-클래스-적용하기&quot;&gt;실습 2 - 요소에 클래스 적용하기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#실습-3---부모에서-자식으로-문자열-전달하기&quot;&gt;실습 3 - 부모에서 자식으로 문자열 전달하기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#실습-4-props-데이터-타입-지정하기&quot;&gt;실습 4 - props 데이터-타입 지정하기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#실습-5-가능한-모든-props-데이터-타입들&quot;&gt;실습 5 - 가능한 모든 props 데이터 타입들&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;실습-전에-기본-구조-살펴보기&quot;&gt;실습 전에 기본 구조 살펴보기&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+아래는 실습 전에 기본 적인 폴더 구조에 대해 살펴볼 필요가 있어 간단히 정리한 이미지이다.
+&lt;img src=&quot;/assets/built/images/react/react실습폴더구조상세.png&quot; alt=&quot;실습폴더구조화&quot; style=&quot;width:50%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;실습-1---화면에-글씨-출력하기&quot;&gt;실습 (1) - 화면에 글씨 출력하기&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C1_Sample&lt;/code&gt; 컴포넌트 생성&lt;/p&gt;
+
+    &lt;p&gt;src/component/C1_Sample.js 파일 생성&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 컴포넌트 정의&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C1_Sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//return 값에 해당되는 부분이 화면에 렌더링 된다&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;C1_Sample&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C1_Sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;App.js에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C1_Sample&lt;/code&gt; 컴포넌트 연결&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 컴포넌트 가져오기&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C1_Sample&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./component/C1_Sample&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// 컴포넌트 사용하기&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C1_Sample&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;서버에서 확인하기&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;yarn&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//혹은&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C1_Sample&lt;/code&gt; 컴포넌트의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;return&lt;/code&gt; 값에 해당되는 부분이 화면에 렌더링 된다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/built/images/react/실습1화면출력.png&quot; alt=&quot;실습1번화면에div요소출력&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;실습-2---요소에-클래스-적용하기&quot;&gt;실습 (2) - 요소에 클래스 적용하기&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C2_AddClassName&lt;/code&gt; 컴포넌트 생성&lt;/p&gt;
+
+    &lt;p&gt;src/component/C2_AddClassName.js 파일 생성&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C2_AddClassName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// className 키워드를 사용한다&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sample&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;C2_AddClassName&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C2_AddClassName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;App.js에 연결&lt;/p&gt;
+
+    &lt;p&gt;실습 1번의 컴포넌트와 실습 2번 컴포넌트를 나란히 출력하기 위해서는 무조건 부모 요소로 해당 요소들을 아래와 같이 한번 감싸주어야 한다!&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C1_Sample&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./component/C1_Sample&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C2_AddClassName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./component/C2_AddClassName&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 부모 요소로 두개의 컴포넌트를 무조건 감싸주어야 두 요소 모두 화면에 렌더링되어 보인다&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C1_Sample&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C2_AddClassName&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;app.css에 스타일 지정&lt;/p&gt;
+
+    &lt;p&gt;새로운 css파일을 만들어도 되지만, 기존에 있던 app.css 에 작성했다.&lt;/p&gt;
+
+    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.sample&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;orange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;서버에서의 결과&lt;/p&gt;
+
+    &lt;p&gt;아래는 클래스를 지정하고 해당 클래스의 css를 작성하여 적용해본 결과이다.
+&lt;img src=&quot;/assets/built/images/react/실습2화면출력.png&quot; alt=&quot;실습2번의화면출력결과&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;실습-3---부모에서-자식으로-문자열-전달하기&quot;&gt;실습 (3) - 부모에서 자식으로 문자열 전달하기&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C3_PropsData&lt;/code&gt; 컴포넌트 생성&lt;/p&gt;
+
+    &lt;p&gt;src/component/C3_PropsData.js 파일 생성&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C3_PropsData&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 부모로부터 받은 name을 name에 저장한다&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// const name은 C3_PropsData컴포넌트에서 사용되는 변수&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 따라서 name이 아닌 다른 이름을 써도 상관없다&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C3_PropsData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;App.js 파일에 연결 및 name 데이터 보내기&lt;/p&gt;
+
+    &lt;p&gt;name 데이터를 자식 컴포넌트에 보낸준다.&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./App.css&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C1_Sample&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./component/C1_Sample&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C2_AddClassName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./component/C2_AddClassName&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 컴포넌트 가져오기&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C3_PropsData&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./component/C3_PropsData&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C1_Sample&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C2_AddClassName&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+      // 자식 컴포넌트 C3_PropsData에 name 데이터를 보내준다
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C3_PropsData&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;부모로부터 받은 string&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;서버에서 결과 확인&lt;/p&gt;
+
+    &lt;p&gt;부모 컴포넌트 App에서 C3_PropsData로 보내준 name데이터의 문자열 “부모로부터 받은 string”이 화면에 잘 출력된다.
+&lt;img src=&quot;/assets/built/images/react/실습3화면출력.png&quot; alt=&quot;실습3번화면출력결과&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;실습-4-props-데이터-타입-지정하기&quot;&gt;실습 (4) props 데이터 타입 지정하기&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C4_PropsDataType&lt;/code&gt; 컴포넌트 파일 생성&lt;/p&gt;
+
+    &lt;p&gt;src/component/C4_PropsDataType.js 파일 생성&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 필수 코드&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;prop-types&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C4_PropsDataType&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 자료형 선언&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;C4_PropsDataType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;propTypes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C4_PropsDataType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;App.js에 연결 및 데이터 name 데이터 보내기&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;서버에서 확인&lt;/p&gt;
+
+    &lt;p&gt;string이 아닌 데이터를 넘겨주면 에러를 콘솔창에서 확인할 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;실습-5-가능한-모든-props-데이터-타입들&quot;&gt;실습 (5) 가능한 모든 props 데이터 타입들&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C5_PropsDataTypes&lt;/code&gt; 컴포넌트 파일 생성&lt;/p&gt;
+
+    &lt;p&gt;src/component/C5_PropsDataTypes.js 파일 생성&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;prop-types&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C5_PropsDataTypes&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// props를 객체구조분해해서 데이터추출&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;boolValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;numValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;arrayValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;objValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;nodeValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;funcValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; boolValue : &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;boolValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; numValue &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;numValue&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; arrayValue :&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arrayValue&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+          objValue :&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;objValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;objValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;nodeValue : &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nodeValue&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; funcValue :&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;funcValue&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 데이터 타입 지정&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;C5_PropsDataTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;propTypes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// 불린&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;boolValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// 숫자&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;numValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// 배열 (그 중에서 숫자 배열)&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;arrayValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arrayOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// 객체&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;objValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// html&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;nodeValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// 함수&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;funcValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C5_PropsDataTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;App.js 파일에 연결 및 데이터 보내기&lt;/p&gt;
+
+    &lt;p&gt;boolean과 number 데이터를 보낼 때는 중괄호 { }를 사용한다.&lt;/p&gt;
+
+    &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;C5_PropsDataTypes&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;boolValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;numValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;112&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;arrayValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;objValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;nodeValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;헤더&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;funcValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;하하하&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;서버 열어서 결과 확인&lt;/p&gt;
+
+    &lt;p&gt;아래와 같이 데이터가 잘 출력됨을 확인. 함수의 경우 console창에 ‘하하하’가 출력되었다
+&lt;img src=&quot;/assets/built/images/react/실습5화면출력.png&quot; alt=&quot;실습5번화면출력결과&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>0andme</name></author><category term="react" /><summary type="html">React 글 목록 펼치기 리액트 입문 - 실습 환경 만들기 리액트 입문 - 실습(1) 실습 내용 실습 1 - 화면에 글씨 출력하기 실습 2 - 요소에 클래스 적용하기 실습 3 - 부모에서 자식으로 문자열 전달하기 실습 4 - props 데이터-타입 지정하기 실습 5 - 가능한 모든 props 데이터 타입들 실습 전에 기본 구조 살펴보기 아래는 실습 전에 기본 적인 폴더 구조에 대해 살펴볼 필요가 있어 간단히 정리한 이미지이다. 실습 (1) - 화면에 글씨 출력하기 C1_Sample 컴포넌트 생성 src/component/C1_Sample.js 파일 생성 import React, { Component } from &quot;react&quot;; // 컴포넌트 정의 function C1_Sample() { //return 값에 해당되는 부분이 화면에 렌더링 된다 return &amp;lt;div&amp;gt;C1_Sample&amp;lt;/div&amp;gt;; } export default C1_Sample; App.js에 C1_Sample 컴포넌트 연결 // 컴포넌트 가져오기 import C1_Sample from &quot;./component/C1_Sample&quot;; function App() { // 컴포넌트 사용하기 return &amp;lt;C1_Sample /&amp;gt;; } export default App; 서버에서 확인하기 yarn start //혹은 npm start C1_Sample 컴포넌트의 return 값에 해당되는 부분이 화면에 렌더링 된다. 실습 (2) - 요소에 클래스 적용하기 C2_AddClassName 컴포넌트 생성 src/component/C2_AddClassName.js 파일 생성 import React, { Component } from &quot;react&quot;; function C2_AddClassName() { // className 키워드를 사용한다 return &amp;lt;div className=&quot;sample&quot;&amp;gt;C2_AddClassName&amp;lt;/div&amp;gt;; } export default C2_AddClassName; App.js에 연결 실습 1번의 컴포넌트와 실습 2번 컴포넌트를 나란히 출력하기 위해서는 무조건 부모 요소로 해당 요소들을 아래와 같이 한번 감싸주어야 한다! import C1_Sample from &quot;./component/C1_Sample&quot;; import C2_AddClassName from &quot;./component/C2_AddClassName&quot;; function App() { return ( // 부모 요소로 두개의 컴포넌트를 무조건 감싸주어야 두 요소 모두 화면에 렌더링되어 보인다 &amp;lt;div&amp;gt; &amp;lt;C1_Sample /&amp;gt; &amp;lt;C2_AddClassName /&amp;gt; &amp;lt;/div&amp;gt; ); } export default App; app.css에 스타일 지정 새로운 css파일을 만들어도 되지만, 기존에 있던 app.css 에 작성했다. .sample { background-color: orange; } 서버에서의 결과 아래는 클래스를 지정하고 해당 클래스의 css를 작성하여 적용해본 결과이다. 실습 (3) - 부모에서 자식으로 문자열 전달하기 C3_PropsData 컴포넌트 생성 src/component/C3_PropsData.js 파일 생성 import React from &quot;react&quot;; class C3_PropsData extends React.Component { render() { // 부모로부터 받은 name을 name에 저장한다 // const name은 C3_PropsData컴포넌트에서 사용되는 변수 // 따라서 name이 아닌 다른 이름을 써도 상관없다 const name = this.props.name; return &amp;lt;span&amp;gt;{name}&amp;lt;/span&amp;gt;; } } export default C3_PropsData; App.js 파일에 연결 및 name 데이터 보내기 name 데이터를 자식 컴포넌트에 보낸준다. import &quot;./App.css&quot;; import C1_Sample from &quot;./component/C1_Sample&quot;; import C2_AddClassName from &quot;./component/C2_AddClassName&quot;; // 컴포넌트 가져오기 import C3_PropsData from &quot;./component/C3_PropsData&quot;; function App() { return ( &amp;lt;div&amp;gt; &amp;lt;C1_Sample /&amp;gt; &amp;lt;C2_AddClassName /&amp;gt; // 자식 컴포넌트 C3_PropsData에 name 데이터를 보내준다 &amp;lt;C3_PropsData name=&quot;부모로부터 받은 string&quot; /&amp;gt; &amp;lt;/div&amp;gt; ); } export default App; 서버에서 결과 확인 부모 컴포넌트 App에서 C3_PropsData로 보내준 name데이터의 문자열 “부모로부터 받은 string”이 화면에 잘 출력된다. 실습 (4) props 데이터 타입 지정하기 C4_PropsDataType 컴포넌트 파일 생성 src/component/C4_PropsDataType.js 파일 생성 import React, { Component } from &quot;react&quot;; // 필수 코드 import PropTypes from &quot;prop-types&quot;; class C4_PropsDataType extends Component { render() { return &amp;lt;div&amp;gt;{this.props.name}&amp;lt;/div&amp;gt;; } } // 자료형 선언 C4_PropsDataType.propTypes = { name: PropTypes.string, }; export default C4_PropsDataType; App.js에 연결 및 데이터 name 데이터 보내기 서버에서 확인 string이 아닌 데이터를 넘겨주면 에러를 콘솔창에서 확인할 수 있다. 실습 (5) 가능한 모든 props 데이터 타입들 C5_PropsDataTypes 컴포넌트 파일 생성 src/component/C5_PropsDataTypes.js 파일 생성 import React, { Component } from &quot;react&quot;; import PropTypes from &quot;prop-types&quot;; class C5_PropsDataTypes extends Component { render() { // props를 객체구조분해해서 데이터추출 const { boolValue, numValue, arrayValue, objValue, nodeValue, funcValue, } = this.props; return ( &amp;lt;div&amp;gt; &amp;lt;div&amp;gt; boolValue : {boolValue.toString()}&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; numValue {numValue}&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; arrayValue :{arrayValue}&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; objValue :{objValue.name} {objValue.age} &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;nodeValue : {nodeValue}&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; funcValue :{funcValue}&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; ); } } // 데이터 타입 지정 C5_PropsDataTypes.propTypes = { // 불린 boolValue: PropTypes.bool, // 숫자 numValue: PropTypes.number, // 배열 (그 중에서 숫자 배열) arrayValue: PropTypes.arrayOf(PropTypes.number), // 객체 objValue: PropTypes.object, // html nodeValue: PropTypes.node, // 함수 funcValue: PropTypes.func, }; export default C5_PropsDataTypes; App.js 파일에 연결 및 데이터 보내기 boolean과 number 데이터를 보낼 때는 중괄호 { }를 사용한다. &amp;lt;C5_PropsDataTypes boolValue={true} numValue={112} arrayValue={[1, 2, 3]} objValue= nodeValue={&amp;lt;h1&amp;gt;헤더&amp;lt;/h1&amp;gt;} funcValue={console.log(&quot;하하하&quot;)} /&amp;gt; 서버 열어서 결과 확인 아래와 같이 데이터가 잘 출력됨을 확인. 함수의 경우 console창에 ‘하하하’가 출력되었다</summary></entry><entry><title type="html">리액트 입문 - 실습 환경 만들기</title><link href="http://localhost:4000/react_start" rel="alternate" type="text/html" title="리액트 입문 - 실습 환경 만들기" /><published>2021-11-18T09:00:01+09:00</published><updated>2021-11-18T09:00:01+09:00</updated><id>http://localhost:4000/react_start</id><content type="html" xml:base="http://localhost:4000/react_start">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;React&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;postListBtn&quot; style=&quot;cursor: pointer; margin-top: -30px&quot;&gt;
+  글 목록 펼치기
+&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;/react_start&quot;&gt;리액트 입문 - 실습 환경 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/react_practice_1&quot;&gt;리액트 입문 - 실습(1)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
 
@@ -54,7 +363,7 @@ react 프로젝트를 만들기 위한 기본 셋팅을 시작한다.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;위의 명령어를 중 하나를 입력해 로컬 서버를 연다. 프로젝트 생성 후 파일 변경 없이 그대로 서버를 열었다면 아래와 같은 서버가 열린다. 이제 프로젝트를 시작하면 된다!
-&lt;img src=&quot;/assets/built/images/react/react최초서버.png&quot; alt=&quot;react 프로제긑 서버 최초 실행시 서버이미지&quot; /&gt;&lt;/p&gt;</content><author><name>0andme</name></author><category term="react" /><summary type="html">React 글 목록 펼치기 리액트 입문 - 시작하기 실습 환경 만들기 1. 설치 npm i -g create-react-app 위의 명령어를 입력하여 react 프로젝트를 만들기 위한 기본 셋팅을 시작한다. vue를 공부할 때는 필요한 패키지들을 하나 하나 다운 받고 설정을 했는데 이번에는 아래 명령어를 사용하여 react 사용을 위한 기본 셋팅이 전부 되어있는 프로젝트를 만들어보았다. 2. 프로젝트 만들기 npx create-react-app 프로젝트명 npx create-react-app 프로젝트명 --use-npm 위의 명령어 중 하나를 터미널에 입력한다. 명령어를 입력하면 명령어를 수행한 폴더 바로 아래에 프로젝트명으로 폴더가 하나 생긴다. 아래와 같은 파일들이 들어있으면 된다. 아래는 211118 이라는 프로젝트를 생성했을 때 최초 생성된 폴더의 구조이다 3. yarn 설치 npm i -g yarn 필수는 아니지만 yarn 도 글로벌로 설치하였다 4. 실습 파일 저장 폴더 만들기 Src 폴더 아래 component 폴더를 만든 후 그 아래에 파일이나 폴더를 넣어 실습을 진행하였다. node버전은 14 버전 5. 서버 열기 npm start yarn start 위의 명령어를 중 하나를 입력해 로컬 서버를 연다. 프로젝트 생성 후 파일 변경 없이 그대로 서버를 열었다면 아래와 같은 서버가 열린다. 이제 프로젝트를 시작하면 된다!</summary></entry><entry><title type="html">2021.10.19</title><link href="http://localhost:4000/2021.10.19" rel="alternate" type="text/html" title="2021.10.19" /><published>2021-10-19T09:00:01+09:00</published><updated>2021-10-19T09:00:01+09:00</updated><id>http://localhost:4000/2021.10.19</id><content type="html" xml:base="http://localhost:4000/2021.10.19">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/built/images/react/react최초서버.png&quot; alt=&quot;react 프로제긑 서버 최초 실행시 서버이미지&quot; /&gt;&lt;/p&gt;</content><author><name>0andme</name></author><category term="react" /><summary type="html">React 글 목록 펼치기 리액트 입문 - 실습 환경 만들기 리액트 입문 - 실습(1) 실습 환경 만들기 1. 설치 npm i -g create-react-app 위의 명령어를 입력하여 react 프로젝트를 만들기 위한 기본 셋팅을 시작한다. vue를 공부할 때는 필요한 패키지들을 하나 하나 다운 받고 설정을 했는데 이번에는 아래 명령어를 사용하여 react 사용을 위한 기본 셋팅이 전부 되어있는 프로젝트를 만들어보았다. 2. 프로젝트 만들기 npx create-react-app 프로젝트명 npx create-react-app 프로젝트명 --use-npm 위의 명령어 중 하나를 터미널에 입력한다. 명령어를 입력하면 명령어를 수행한 폴더 바로 아래에 프로젝트명으로 폴더가 하나 생긴다. 아래와 같은 파일들이 들어있으면 된다. 아래는 211118 이라는 프로젝트를 생성했을 때 최초 생성된 폴더의 구조이다 3. yarn 설치 npm i -g yarn 필수는 아니지만 yarn 도 글로벌로 설치하였다 4. 실습 파일 저장 폴더 만들기 Src 폴더 아래 component 폴더를 만든 후 그 아래에 파일이나 폴더를 넣어 실습을 진행하였다. node버전은 14 버전 5. 서버 열기 npm start yarn start 위의 명령어를 중 하나를 입력해 로컬 서버를 연다. 프로젝트 생성 후 파일 변경 없이 그대로 서버를 열었다면 아래와 같은 서버가 열린다. 이제 프로젝트를 시작하면 된다!</summary></entry><entry><title type="html">2021.10.19</title><link href="http://localhost:4000/2021.10.19" rel="alternate" type="text/html" title="2021.10.19" /><published>2021-10-19T09:00:01+09:00</published><updated>2021-10-19T09:00:01+09:00</updated><id>http://localhost:4000/2021.10.19</id><content type="html" xml:base="http://localhost:4000/2021.10.19">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
 &lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
@@ -705,67 +1014,4 @@ root폴더 바로 아래에 들어 있는 두개의 파일&lt;/li&gt;
 &lt;ul&gt;
   &lt;li&gt;강사님이 내주신 카드 만들기 과제 수행해보기&lt;/li&gt;
   &lt;li&gt;TIL, 워크시트 작성&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>0andme</name></author><category term="til" /><summary type="html">TIL(Today I Learned) 글 목록 펼치기 2021.07.19 2021.07.20 2021.07.21 2021.07.22 2021.07.23 2021.07.24 2021.07.25 2021.07.26 2021.07.27 2021.07.28 2021.07.29 2021.07.30 2021.07.31 2021.08.01 2021.08.02 2021.08.03 2021.08.04 2021.08.05 2021.08.06 2021.08.07 2021.08.08 2021.08.09 2021.08.10 2021.08.11 2021.08.12 2021.08.13 2021.08.17 2021.08.18 2021.08.19 2021.08.20 2021.08.23 2021.08.24 2021.08.26 2021.08.27 2021.10.15 2021.10.16 2021.10.18 2021.10.19 Plan 오늘 할 일 ✅ HTML/css 실강 듣기 I did 오늘 한 일 html/css 실강을 들었다. 개발자 도구로 html태그를 찍어 보며 모든 css를 설정하지 않아도 화면에 출력될 수 있는 이유에 대해 배웠다. 개발자 도구 - 프로퍼티스를 눌러 태그를 생성하면 속성리스트들이 알아서 생성되는 것을 확인하였고 기본 값으로 설정되어 있는 값들도 확인해보았다. 내일 할 일 강사님이 내주신 카드 만들기 과제 수행해보기 TIL, 워크시트 작성</summary></entry><entry><title type="html">2021.08.20</title><link href="http://localhost:4000/2021.08.20" rel="alternate" type="text/html" title="2021.08.20" /><published>2021-08-20T09:00:01+09:00</published><updated>2021-08-20T09:00:01+09:00</updated><id>http://localhost:4000/2021.08.20</id><content type="html" xml:base="http://localhost:4000/2021.08.20">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;TIL(Today I Learned)&lt;/span&gt;&lt;/p&gt;
-&lt;p class=&quot;postListBtn&quot; style=&quot;cursor:pointer ; margin-top: -30px;&quot;&gt; 글 목록 펼치기&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.19&quot;&gt;2021.07.19&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.20&quot;&gt;2021.07.20&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.21&quot;&gt;2021.07.21&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.22&quot;&gt;2021.07.22&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.23&quot;&gt;2021.07.23&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.24&quot;&gt;2021.07.24&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.25&quot;&gt;2021.07.25&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.26&quot;&gt;2021.07.26&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.27&quot;&gt;2021.07.27&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.28&quot;&gt;2021.07.28&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.29&quot;&gt;2021.07.29&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.30&quot;&gt;2021.07.30&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.07.31&quot;&gt;2021.07.31&lt;/a&gt;&lt;/li&gt;
-
-    &lt;li&gt;&lt;a href=&quot;/2021.08.01&quot;&gt;2021.08.01&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.02&quot;&gt;2021.08.02&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.03&quot;&gt;2021.08.03&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.04&quot;&gt;2021.08.04&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.05&quot;&gt;2021.08.05&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.06&quot;&gt;2021.08.06&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.07&quot;&gt;2021.08.07&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.08&quot;&gt;2021.08.08&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.09&quot;&gt;2021.08.09&lt;/a&gt;&lt;/li&gt;
-
-    &lt;li&gt;&lt;a href=&quot;/2021.08.10&quot;&gt;2021.08.10&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.11&quot;&gt;2021.08.11&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.12&quot;&gt;2021.08.12&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.13&quot;&gt;2021.08.13&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.17&quot;&gt;2021.08.17&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.18&quot;&gt;2021.08.18&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.19&quot;&gt;2021.08.19&lt;/a&gt;&lt;/li&gt;
-
-    &lt;li&gt;&lt;a href=&quot;/2021.08.20&quot;&gt;2021.08.20&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.23&quot;&gt;2021.08.23&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.24&quot;&gt;2021.08.24&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.26&quot;&gt;2021.08.26&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.08.27&quot;&gt;2021.08.27&lt;/a&gt;&lt;/li&gt;
-
-    &lt;li&gt;&lt;a href=&quot;/2021.10.15&quot;&gt;2021.10.15&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.10.16&quot;&gt;2021.10.16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.10.18&quot;&gt;2021.10.18&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/2021.10.19&quot;&gt;2021.10.19&lt;/a&gt;&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;script src=&quot;/assets/js/postListBtn.js&quot;&gt;&lt;/script&gt;
-
-&lt;hr /&gt;
-
-&lt;!-- excerpt-start --&gt;
-
-&lt;h4 id=&quot;plan-오늘-할-일&quot;&gt;Plan 오늘 할 일&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;✅ html/css강의 듣기&lt;/li&gt;
-  &lt;li&gt;✅ TIL작성&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;i-did-오늘-한-일&quot;&gt;I did 오늘 한 일&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;오버워치 캐릭터 선택 화면을 만들어보는 예제를 강의와 함께 실습을 해보았다.
-강의에서 작성하라는 대로 작성하는 것은 도움이 안된다는 것을 알기에 먼저 생각해보고 코드를 작성한 후 이어서 강의를 들었다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>0andme</name></author><category term="til" /><summary type="html">TIL(Today I Learned) 글 목록 펼치기 2021.07.19 2021.07.20 2021.07.21 2021.07.22 2021.07.23 2021.07.24 2021.07.25 2021.07.26 2021.07.27 2021.07.28 2021.07.29 2021.07.30 2021.07.31 2021.08.01 2021.08.02 2021.08.03 2021.08.04 2021.08.05 2021.08.06 2021.08.07 2021.08.08 2021.08.09 2021.08.10 2021.08.11 2021.08.12 2021.08.13 2021.08.17 2021.08.18 2021.08.19 2021.08.20 2021.08.23 2021.08.24 2021.08.26 2021.08.27 2021.10.15 2021.10.16 2021.10.18 2021.10.19 Plan 오늘 할 일 ✅ html/css강의 듣기 ✅ TIL작성 I did 오늘 한 일 오버워치 캐릭터 선택 화면을 만들어보는 예제를 강의와 함께 실습을 해보았다. 강의에서 작성하라는 대로 작성하는 것은 도움이 안된다는 것을 알기에 먼저 생각해보고 코드를 작성한 후 이어서 강의를 들었다.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>0andme</name></author><category term="til" /><summary type="html">TIL(Today I Learned) 글 목록 펼치기 2021.07.19 2021.07.20 2021.07.21 2021.07.22 2021.07.23 2021.07.24 2021.07.25 2021.07.26 2021.07.27 2021.07.28 2021.07.29 2021.07.30 2021.07.31 2021.08.01 2021.08.02 2021.08.03 2021.08.04 2021.08.05 2021.08.06 2021.08.07 2021.08.08 2021.08.09 2021.08.10 2021.08.11 2021.08.12 2021.08.13 2021.08.17 2021.08.18 2021.08.19 2021.08.20 2021.08.23 2021.08.24 2021.08.26 2021.08.27 2021.10.15 2021.10.16 2021.10.18 2021.10.19 Plan 오늘 할 일 ✅ HTML/css 실강 듣기 I did 오늘 한 일 html/css 실강을 들었다. 개발자 도구로 html태그를 찍어 보며 모든 css를 설정하지 않아도 화면에 출력될 수 있는 이유에 대해 배웠다. 개발자 도구 - 프로퍼티스를 눌러 태그를 생성하면 속성리스트들이 알아서 생성되는 것을 확인하였고 기본 값으로 설정되어 있는 값들도 확인해보았다. 내일 할 일 강사님이 내주신 카드 만들기 과제 수행해보기 TIL, 워크시트 작성</summary></entry></feed>
