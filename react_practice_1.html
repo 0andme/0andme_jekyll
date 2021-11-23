@@ -245,6 +245,8 @@ into the {body} of the default.hbs template -->
 
 <p><a href="#실습-5-가능한-모든-props-데이터-타입들">실습 5 - 가능한 모든 props 데이터 타입들</a></p>
 
+<p><a href="#실습-6---boolean-값-내려보내기">실습 6 - boolean 값 내려보내기</a></p>
+
 <hr />
 
 <h3 id="실습-전에-기본-구조-살펴보기">실습 전에 기본 구조 살펴보기</h3>
@@ -526,6 +528,48 @@ into the {body} of the default.hbs template -->
 
     <p>아래와 같이 데이터가 잘 출력됨을 확인. 함수의 경우 console창에 ‘하하하’가 출력되었다
 <img src="/assets/built/images/react/실습5화면출력.png" alt="실습5번화면출력결과" /></p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="실습-6---boolean-값-내려보내기">실습 (6) - Boolean 값 내려보내기</h3>
+
+<ol>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">C6_PropsDataBoolean</code> 컴포넌트 파일 생성</p>
+
+    <p>src/component/C6_PropsDataBoolean.js 파일 생성</p>
+
+    <p>props 데이터 isTrue를 받아 참/거짓에 따라 message의 값이 달라지는 코드</p>
+
+    <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="kd">class</span> <span class="nx">C6_PropsDataBoolean</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// props 데이터 isTrue</span>
+    <span class="kd">const</span> <span class="nx">message</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">isTrue</span> <span class="p">?</span> <span class="dl">"</span><span class="s2">참</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">거짓</span><span class="dl">"</span><span class="p">;</span>
+    <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">message</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">C6_PropsDataBoolean</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>App.js 파일에 연결 및 isTrue 데이터 보내기</p>
+
+    <p>참/거짓 두가지 경우 모두 출력해보기 위해 컴포넌트를 두 번 추가 했다.</p>
+
+    <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&lt;</span><span class="nc">C6_PropsDataBoolean</span> <span class="na">isTrue</span><span class="p">=</span><span class="si">{</span><span class="kc">false</span><span class="si">}</span> <span class="p">/&gt;</span>
+<span class="p">&lt;</span><span class="nc">C6_PropsDataBoolean</span> <span class="na">isTrue</span><span class="p">=</span><span class="si">{</span><span class="kc">true</span><span class="si">}</span> <span class="p">/&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>서버 열어서 결과 확인</p>
+
+    <p>보낸 데이터의 참/거짓 여부에 따라 메시지가 다르게 출력되는 것을 확인할 수 있다.
+<img src="/assets/built/images/react/실습6화면출력.png" alt="실습6번화면출력결과" /></p>
   </li>
 </ol>
 
