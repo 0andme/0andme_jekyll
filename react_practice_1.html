@@ -420,25 +420,25 @@ into the {body} of the default.hbs template -->
 
 <ol>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">C4_PropsDataType</code> 컴포넌트 파일 생성</p>
+    <p><code class="language-plaintext highlighter-rouge">C4_PropsDataString</code> 컴포넌트 파일 생성</p>
 
-    <p>src/component/C4_PropsDataType.js 파일 생성</p>
+    <p>src/component/C4_PropsDataString.js 파일 생성</p>
 
     <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react</span><span class="dl">"</span><span class="p">;</span>
 <span class="c1">// 필수 코드</span>
 <span class="k">import</span> <span class="nx">PropTypes</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">prop-types</span><span class="dl">"</span><span class="p">;</span>
 
-<span class="kd">class</span> <span class="nx">C4_PropsDataType</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+<span class="kd">class</span> <span class="nx">C4_PropsDataString</span> <span class="kd">extends</span> <span class="nx">Component</span> <span class="p">{</span>
   <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span><span class="si">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;;</span>
   <span class="p">}</span>
 <span class="p">}</span>
 <span class="c1">// 자료형 선언</span>
-<span class="nx">C4_PropsDataType</span><span class="p">.</span><span class="nx">propTypes</span> <span class="o">=</span> <span class="p">{</span>
+<span class="nx">C4_PropsDataString</span><span class="p">.</span><span class="nx">propTypes</span> <span class="o">=</span> <span class="p">{</span>
   <span class="na">name</span><span class="p">:</span> <span class="nx">PropTypes</span><span class="p">.</span><span class="nx">string</span><span class="p">,</span>
 <span class="p">};</span>
 
-<span class="k">export</span> <span class="k">default</span> <span class="nx">C4_PropsDataType</span><span class="p">;</span>
+<span class="k">export</span> <span class="k">default</span> <span class="nx">C4_PropsDataString</span><span class="p">;</span>
 </code></pre></div>    </div>
   </li>
   <li>App.js에 연결 및 데이터 name 데이터 보내기</li>
